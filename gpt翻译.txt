@@ -1,0 +1,8 @@
+注意不修改原有参数描述键值对，将翻译后的“参数描述”新建一个"翻译"的键值对来保存，这是一个关于px4参数的说明，可以在翻译的后面添加一些帮助性的注解，返回一个新的json格式的给我，不修改原有参数描述键值对的翻译，并将翻译后的描述放入新的 "翻译" 键值对中：
+    {
+        "名称": "PCA9685_DIS1 (INT32)",
+        "参数描述": "PCA9685 Output Channel 1 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
+        "[Min, Max] (Incr.)": "[800, 2200]",
+        "默认值": "1000",
+        "单位": ""
+    }
