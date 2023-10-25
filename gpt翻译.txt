@@ -1,8 +1,24 @@
-注意不修改原有参数描述键值对，将翻译后的“参数描述”新建一个"翻译"的键值对来保存，这是一个关于px4参数的说明，可以在翻译的后面添加一些帮助性的注解，返回一个新的json格式的给我，不修改原有参数描述键值对的翻译，并将翻译后的描述放入新的 "翻译" 键值对中：
+根据下面的示例，不修改原有参数描述键值对，将翻译后的“参数描述”新建一个"翻译"的键值对来保存，这是一个关于px4参数的说明，可以在翻译的后面添加一些帮助性的注解，返回一个新的json格式的给我，不修改原有参数描述键值对的翻译，并将翻译后的描述放入新的 "翻译" 键值对中：
+```json
     {
-        "名称": "DSHOT_3D_DEAD_H (INT32)",
-        "参数描述": "DSHOT 3D deadband high Comment: When the actuator_output is between DSHOT_3D_DEAD_L and DSHOT_3D_DEAD_H, motor will not spin. This value is with respect to the mixer_module range (0-1999), not the DSHOT values.",
-        "[Min, Max] (Incr.)": "[1000, 1999]",
-        "默认值": "1000",
+        "名称": "MC_YAWRATE_K (FLOAT)",
+        "参数描述": "Yaw rate controller gain Comment: Global gain of the controller. This gain scales the P, I and D terms of the controller: output = MC_YAWRATE_K * (MC_YAWRATE_P * error + MC_YAWRATE_I * error_integral + MC_YAWRATE_D * error_derivative) Set MC_YAWRATE_P=1 to implement a PID in the ideal form. Set MC_YAWRATE_K=1 to implement a PID in the parallel form.",
+        "[Min, Max] (Incr.)": "[0.0, 5.0] (0.0005)",
+        "默认值": "1.0",
         "单位": ""
     }
+```
+
+```示例
+{
+    "名称": "MOT_POLE_COUNT (INT32)",
+    "参数描述": "Number of magnetic poles of the motors Comment: Specify the number of magnetic poles of the motors. It is required to compute the RPM value from the eRPM returned with the ESC telemetry. Either get the number from the motor spec sheet or count the magnets on the bell of the motor (not the stator magnets). Typical motors for 5 inch props have 14 poles.",
+    "翻译": {
+        "参数描述": "电机的磁极数 Comment: 指定电机的磁极数。这是计算从带有电子调速器遥测返回的电机电转数 (eRPM) 所必需的。您可以从电机规格表中获取这个数值，或者数一数电机钟罩上的磁铁数量（而不是定子上的磁铁）。通常用于 5 寸桨叶的电机有 14 个磁极。",
+        "注解": "MOT_POLE_COUNT 参数用于指定电机的磁极数。这个数值对于从电子调速器遥测中计算电机的实际电转数（RPM）非常重要。请根据电机规格或钟罩上的磁铁数量来设置这个参数。"
+    },
+    "[Min, Max] (Incr.)": "",
+    "默认值": "14",
+    "单位": ""
+}
+```

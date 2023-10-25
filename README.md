@@ -14386,8 +14386,8 @@
 1439. MC_YAWRATE_FF (FLOAT)
 - 名称：MC_YAWRATE_FF (FLOAT)
 - 参数描述：Yaw rate feedforward Comment: Improves tracking performance.
-  - 翻译：
-  - gpt注解：
+  - 翻译：偏航速率前馈 Comment: 提高跟踪性能。
+  - gpt注解：MC_YAWRATE_FF参数代表偏航速率的前馈项。它用于提高控制系统的跟踪性能。
 - `[Min, Max]`：`[0.0, ?] (0.01)`
 - 默认值：`0.0`
 - 单位：``
@@ -14396,8 +14396,8 @@
 1440. MC_YAWRATE_I (FLOAT)
 - 名称：MC_YAWRATE_I (FLOAT)
 - 参数描述：Yaw rate I gain Comment: Yaw rate integral gain. Can be set to compensate static thrust difference or gravity center offset.
-  - 翻译：
-  - gpt注解：
+  - 翻译：偏航速率I增益 Comment: 偏航速率积分增益。可以设置以补偿静态推力差异或重心偏移。
+  - gpt注解：MC_YAWRATE_I参数代表偏航速率的积分增益。您可以调整此值以补偿静态推力差异或重心偏移。
 - `[Min, Max]`：`[0.0, ?] (0.01)`
 - 默认值：`0.1`
 - 单位：``
@@ -14406,8 +14406,8 @@
 1441. MC_YAWRATE_K (FLOAT)
 - 名称：MC_YAWRATE_K (FLOAT)
 - 参数描述：Yaw rate controller gain Comment: Global gain of the controller. This gain scales the P, I and D terms of the controller: output = MC_YAWRATE_K * (MC_YAWRATE_P * error + MC_YAWRATE_I * error_integral + MC_YAWRATE_D * error_derivative) Set MC_YAWRATE_P=1 to implement a PID in the ideal form. Set MC_YAWRATE_K=1 to implement a PID in the parallel form.
-  - 翻译：
-  - gpt注解：
+  - 翻译：偏航速率控制增益 Comment: 控制器的全局增益。该增益缩放控制器的P、I和D项：输出 = MC_YAWRATE_K * (MC_YAWRATE_P * 误差 + MC_YAWRATE_I * 误差积分 + MC_YAWRATE_D * 误差导数) 将MC_YAWRATE_P设置为1以实现理想形式的PID。将MC_YAWRATE_K设置为1以实现并联形式的PID。
+  - gpt注解：MC_YAWRATE_K参数代表偏航速率控制器的全局增益。该值用于缩放控制器的P、I和D项，从而影响控制输出。您可以将MC_YAWRATE_P设置为1以实现理想形式的PID控制，将MC_YAWRATE_K设置为1以实现并联形式的PID控制。
 - `[Min, Max]`：`[0.0, 5.0] (0.0005)`
 - 默认值：`1.0`
 - 单位：``
@@ -14416,8 +14416,8 @@
 1442. MC_YAWRATE_P (FLOAT)
 - 名称：MC_YAWRATE_P (FLOAT)
 - 参数描述：Yaw rate P gain Comment: Yaw rate proportional gain, i.e. control output for angular speed error 1 rad/s.
-  - 翻译：
-  - gpt注解：
+  - 翻译：偏航速率P增益 Comment: 偏航速率比例增益，即角速度误差1弧度/秒的控制输出。
+  - gpt注解：MC_YAWRATE_P参数代表偏航速率的比例增益，也就是角速度误差1弧度/秒时的控制输出。
 - `[Min, Max]`：`[0.0, 0.6] (0.01)`
 - 默认值：`0.2`
 - 单位：``
@@ -14426,8 +14426,8 @@
 1443. MC_YR_INT_LIM (FLOAT)
 - 名称：MC_YR_INT_LIM (FLOAT)
 - 参数描述：Yaw rate integrator limit Comment: Yaw rate integrator limit. Can be set to increase the amount of integrator available to counteract disturbances or reduced to improve settling time after large yaw moment trim changes.
-  - 翻译：
-  - gpt注解：
+  - 翻译：偏航速率积分限制 Comment: 偏航速率积分限制。可以设置以增加可用积分来对抗干扰，或减少以提高在大偏航力矩修正后的稳定时间。
+  - gpt注解：MC_YR_INT_LIM参数代表偏航速率积分的限制。您可以调整此值以增加可用的积分来抵消干扰，或减小它以提高在大偏航力矩修正后的稳定时间。
 - `[Min, Max]`：`[0.0, ?] (0.01)`
 - 默认值：`0.30`
 - 单位：``
@@ -14436,8 +14436,8 @@
 1444. MSP_OSD_CONFIG (INT32)
 - 名称：MSP_OSD_CONFIG (INT32)
 - 参数描述：Serial Configuration for MSP OSD Comment: Configure on which serial port to run MSP OSD. 参数对照:0: Disabled 6: UART 6 101: TELEM 1 102: TELEM 2 103: TELEM 3 104: TELEM/SERIAL 4 201: GPS 1 202: GPS 2 203: GPS 3 300: Radio Controller 301: Wifi Port 401: EXT2 Reboot required: true
-  - 翻译：
-  - gpt注解：
+  - 翻译：MSP OSD串口配置 Comment: 配置MSP OSD运行在哪个串口上。 参数对照: 0: 禁用 6: UART 6 101: TELEM 1 102: TELEM 2 103: TELEM 3 104: TELEM/SERIAL 4 201: GPS 1 202: GPS 2 203: GPS 3 300: 无线电遥控器 301: Wifi 串口 401: EXT2 需要重新启动: true
+  - gpt注解：MSP_OSD_CONFIG参数用于配置MSP OSD运行的串口。可以根据需要选择不同的串口。参数对照中列出了各选项的含义。在更改此参数后，需要重新启动系统生效。
 - `[Min, Max]`：``
 - 默认值：`0`
 - 单位：``
@@ -14445,9 +14445,9 @@
 
 1445. OSD_ATXXXX_CFG (INT32)
 - 名称：OSD_ATXXXX_CFG (INT32)
-- 参数描述：Enable/Disable the ATXXX OSD Chip Comment: Configure the ATXXXX OSD Chip (mounted on the OmnibusF4SD board) and select the transmission standard. 参数对照:0: Disabled 1: NTSC 2: PAL Reboot required: true
-  - 翻译：
-  - gpt注解：
+- 参数描述：Enable/Disable the ATXXX OSD Chip Comment: Configure the ATXXXX OSD Chip (mounted on the OmnibusF4SD board) and select the transmission standard. 参数对照: 0: Disabled 1: NTSC 2: PAL Reboot required: true
+  - 翻译：启用/禁用ATXXX OSD芯片 Comment: 配置安装在OmnibusF4SD板上的ATXXX OSD芯片，并选择传输标准。 参数对照: 0: 禁用 1: NTSC 2: PAL 需要重新启动: true
+  - gpt注解：OSD_ATXXXX_CFG参数用于启用或禁用ATXXX OSD芯片，以及配置其传输标准。该芯片通常安装在OmnibusF4SD板上。参数对照列出了不同选项的含义。在更改此参数后，需要重新启动系统生效。
 - `[Min, Max]`：``
 - 默认值：`0`
 - 单位：``
