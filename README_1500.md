@@ -4306,8 +4306,8 @@
 1431. MC_PR_INT_LIM (FLOAT)
 - 名称：MC_PR_INT_LIM (FLOAT)
 - 参数描述：Pitch rate integrator limit Comment: Pitch rate integrator limit. Can be set to increase the amount of integrator available to counteract disturbances or reduced to improve settling time after large pitch moment trim changes.
-  - 翻译：
-  - gpt注解：
+  - 翻译：俯仰速率积分限制 Comment: 俯仰速率积分限制。可以设置以增加可用积分来对抗干扰，或减少以提高在大俯仰力矩修正后的稳定时间。
+  - gpt注解：MC_PR_INT_LIM参数代表俯仰速率的积分限制。您可以调整此值以增加可用的积分来抵消干扰，或减小它以提高在大俯仰力矩修正后的稳定时间。
 - `[Min, Max]`：`[0.0, ?] (0.01)`
 - 默认值：`0.30`
 - 单位：``
@@ -4316,8 +4316,8 @@
 1432. MC_ROLLRATE_D (FLOAT)
 - 名称：MC_ROLLRATE_D (FLOAT)
 - 参数描述：Roll rate D gain Comment: Roll rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.
-  - 翻译：
-  - gpt注解：
+  - 翻译：横滚速率D增益 Comment: 横滚速率微分增益。较小的值有助于减小快速振荡。如果值过大，振荡将再次出现。
+  - gpt注解：MC_ROLLRATE_D参数代表横滚速率的微分增益。较小的值有助于减小快速振荡。如果值过大，振荡将再次出现。
 - `[Min, Max]`：`[0.0, 0.01] (0.0005)`
 - 默认值：`0.003`
 - 单位：``
@@ -4326,8 +4326,8 @@
 1433. MC_ROLLRATE_FF (FLOAT)
 - 名称：MC_ROLLRATE_FF (FLOAT)
 - 参数描述：Roll rate feedforward Comment: Improves tracking performance.
-  - 翻译：
-  - gpt注解：
+  - 翻译：横滚速率前馈 Comment: 提高跟踪性能。
+  - gpt注解：MC_ROLLRATE_FF参数代表横滚速率的前馈项。它用于提高控制系统的跟踪性能。
 - `[Min, Max]`：`[0.0, ?]`
 - 默认值：`0.0`
 - 单位：``
@@ -4336,8 +4336,8 @@
 1434. MC_ROLLRATE_I (FLOAT)
 - 名称：MC_ROLLRATE_I (FLOAT)
 - 参数描述：Roll rate I gain Comment: Roll rate integral gain. Can be set to compensate static thrust difference or gravity center offset.
-  - 翻译：
-  - gpt注解：
+  - 翻译：横滚速率I增益 Comment: 横滚速率积分增益。可设置以补偿静态推力差异或重心偏移。
+  - gpt注解：MC_ROLLRATE_I参数代表横滚速率的积分增益。您可以调整此值以补偿静态推力差异或重心偏移。
 - `[Min, Max]`：`[0.0, ?] (0.01)`
 - 默认值：`0.2`
 - 单位：``
@@ -4346,8 +4346,8 @@
 1435. MC_ROLLRATE_K (FLOAT)
 - 名称：MC_ROLLRATE_K (FLOAT)
 - 参数描述：Roll rate controller gain Comment: Global gain of the controller. This gain scales the P, I and D terms of the controller: output = MC_ROLLRATE_K * (MC_ROLLRATE_P * error + MC_ROLLRATE_I * error_integral + MC_ROLLRATE_D * error_derivative) Set MC_ROLLRATE_P=1 to implement a PID in the ideal form. Set MC_ROLLRATE_K=1 to implement a PID in the parallel form.
-  - 翻译：
-  - gpt注解：
+  - 翻译：横滚速率控制器增益 Comment: 控制器的全局增益。该增益缩放控制器的P、I和D项：输出 = MC_ROLLRATE_K * (MC_ROLLRATE_P * 误差 + MC_ROLLRATE_I * 误差积分 + MC_ROLLRATE_D * 误差导数) 将MC_ROLLRATE_P设置为1以实现理想形式的PID。将MC_ROLLRATE_K设置为1以实现并联形式的PID。
+  - gpt注解：MC_ROLLRATE_K参数代表横滚速率控制器的全局增益。该值用于缩放控制器的P、I和D项，从而影响控制输出。您可以将MC_ROLLRATE_P设置为1以实现理想形式的PID控制，将MC_ROLLRATE_K设置为1以实现并联形式的PID控制。
 - `[Min, Max]`：`[0.01, 5.0] (0.0005)`
 - 默认值：`1.0`
 - 单位：``
@@ -4356,8 +4356,8 @@
 1436. MC_ROLLRATE_P (FLOAT)
 - 名称：MC_ROLLRATE_P (FLOAT)
 - 参数描述：Roll rate P gain Comment: Roll rate proportional gain, i.e. control output for angular speed error 1 rad/s.
-  - 翻译：
-  - gpt注解：
+  - 翻译：横滚速率P增益 Comment: 横滚速率比例增益，即角速度误差1弧度/秒的控制输出。
+  - gpt注解：MC_ROLLRATE_P参数代表横滚速率的比例增益，也就是角速度误差1弧度/秒时的控制输出。
 - `[Min, Max]`：`[0.01, 0.5] (0.01)`
 - 默认值：`0.15`
 - 单位：``
@@ -4366,8 +4366,8 @@
 1437. MC_RR_INT_LIM (FLOAT)
 - 名称：MC_RR_INT_LIM (FLOAT)
 - 参数描述：Roll rate integrator limit Comment: Roll rate integrator limit. Can be set to increase the amount of integrator available to counteract disturbances or reduced to improve settling time after large roll moment trim changes.
-  - 翻译：
-  - gpt注解：
+  - 翻译：横滚速率积分限制 Comment: 横滚速率积分限制。可以设置以增加可用积分来对抗干扰，或减少以提高在大横滚力矩修正后的稳定时间。
+  - gpt注解：MC_RR_INT_LIM参数代表横滚速率的积分限制。您可以调整此值以增加可用的积分来抵消干扰，或减小它以提高在大横滚力矩修正后的稳定时间。
 - `[Min, Max]`：`[0.0, ?] (0.01)`
 - 默认值：`0.30`
 - 单位：``
@@ -4376,8 +4376,8 @@
 1438. MC_YAWRATE_D (FLOAT)
 - 名称：MC_YAWRATE_D (FLOAT)
 - 参数描述：Yaw rate D gain Comment: Yaw rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.
-  - 翻译：
-  - gpt注解：
+  - 翻译：偏航速率D增益 Comment: 偏航速率微分增益。较小的值有助于减小快速振荡。如果值过大，振荡将再次出现。
+  - gpt注解：MC_YAWRATE_D参数代表偏航速率的微分增益。较小的值有助于减小快速振荡。如果值过大，振荡将再次出现。
 - `[Min, Max]`：`[0.0, ?] (0.01)`
 - 默认值：`0.0`
 - 单位：``
@@ -4506,8 +4506,8 @@
 1451. MOT_SLEW_MAX (FLOAT)
 - 名称：MOT_SLEW_MAX (FLOAT)
 - 参数描述：Minimum motor rise time (slew rate limit) Comment: Minimum time allowed for the motor input signal to pass through a range of 1000 PWM units. A value x means that the motor signal can only go from 1000 to 2000 PWM in minimum x seconds. Zero means that slew rate limiting is disabled.
-  - 翻译：
-  - gpt注解：
+  - 翻译：电机最小上升时间（斜升速率限制） Comment: 允许电机输入信号通过1000 PWM单位范围所需的最短时间。值x表示电机信号至少需要x秒从1000 PWM上升到2000 PWM。零表示斜升速率限制已禁用。
+  - gpt注解：MOT_SLEW_MAX参数代表电机的最小上升时间，即允许电机输入信号在1000 PWM单位范围内的最短时间。值x表示电机信号至少需要x秒从1000 PWM上升到2000 PWM。零表示斜升速率限制已禁用。
 - `[Min, Max]`：`[0.0, ?]`
 - 默认值：`0.0`
 - 单位：`s/(1000*PWM)`
@@ -4516,8 +4516,8 @@
 1452. PWM_SBUS_MODE (INT32)
 - 名称：PWM_SBUS_MODE (INT32)
 - 参数描述：S.BUS out Comment: Set to 1 to enable S.BUS version 1 output instead of RSSI.
-  - 翻译：
-  - gpt注解：
+  - 翻译：S.BUS输出 Comment: 设置为1以启用S.BUS版本1输出，而不是RSSI。
+  - gpt注解：PWM_SBUS_MODE参数用于控制S.BUS输出。将其设置为1以启用S.BUS版本1输出，而不是RSSI。
 - `[Min, Max]`：``
 - 默认值：`Disabled (0)`
 - 单位：``

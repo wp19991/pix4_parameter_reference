@@ -1796,8 +1796,8 @@
 180. PWM_AUX_TIM0 (INT32)
 - 名称：PWM_AUX_TIM0 (INT32)
 - 参数描述：Output Protocol Configuration for PWM Aux 1-4 Comment: Select which Output Protocol to use for outputs PWM Aux 1-4. Custom PWM rates can be used by directly setting any value >0. 参数对照:-5: DShot150 -4: DShot300 -3: DShot600 -2: DShot1200 -1: OneShot 50: PWM 50 Hz 100: PWM 100 Hz 200: PWM 200 Hz 400: PWM 400 Hz Reboot required: True
-  - 翻译：
-  - gpt注解：
+  - 翻译：PWM辅助1-4输出协议配置 Comment: 选择用于PWM辅助1-4输出的输出协议。可以通过直接设置任何值>0来使用自定义PWM频率。 参数对照:-5: DShot150 -4: DShot300 -3: DShot600 -2: DShot1200 -1: OneShot 50: PWM 50 Hz 100: PWM 100 Hz 200: PWM 200 Hz 400: PWM 400 Hz 需要重新启动: 是
+  - gpt注解：PWM_AUX_TIM0参数用于配置PWM辅助1-4的输出协议。您可以选择要使用的输出协议，也可以通过设置自定义的PWM频率来实现。请注意，如果要使用自定义频率，必须将值设置为大于0。根据需要，可以重新启动设备。
 - `[Min, Max]`：``
 - 默认值：`400`
 - 单位：``
@@ -2246,8 +2246,8 @@
 225. PWM_MAIN_TIM0 (INT32)
 - 名称：PWM_MAIN_TIM0 (INT32)
 - 参数描述：Output Protocol Configuration for MAIN 1-2 Comment: Select which Output Protocol to use for outputs MAIN 1-2. Custom PWM rates can be used by directly setting any value >0. 参数对照:-1: OneShot 50: PWM 50 Hz 100: PWM 100 Hz 200: PWM 200 Hz 400: PWM 400 Hz Reboot required: True
-  - 翻译：
-  - gpt注解：
+  - 翻译：MAIN 1-2的输出协议配置 Comment: 选择用于MAIN 1-2的输出协议。可以通过直接设置任何值>0来使用自定义PWM频率。 参数对照:-1: OneShot 50: PWM 50 Hz 100: PWM 100 Hz 200: PWM 200 Hz 400: PWM 400 Hz 需要重新启动: 是
+  - gpt注解：PWM_MAIN_TIM0参数用于配置MAIN 1-2的输出协议。您可以选择要使用的输出协议，也可以通过设置自定义的PWM频率来实现。请注意，如果要使用自定义频率，必须将值设置为大于0。根据需要，可以重新启动设备。
 - `[Min, Max]`：``
 - 默认值：`400`
 - 单位：``
@@ -2256,8 +2256,8 @@
 226. PWM_MAIN_TIM1 (INT32)
 - 名称：PWM_MAIN_TIM1 (INT32)
 - 参数描述：Output Protocol Configuration for MAIN 3-4 Comment: Select which Output Protocol to use for outputs MAIN 3-4. Custom PWM rates can be used by directly setting any value >0. 参数对照:-1: OneShot 50: PWM 50 Hz 100: PWM 100 Hz 200: PWM 200 Hz 400: PWM 400 Hz Reboot required: True
-  - 翻译：
-  - gpt注解：
+  - 翻译：MAIN 3-4的输出协议配置 Comment: 选择用于MAIN 3-4的输出协议。可以通过直接设置任何值>0来使用自定义PWM频率。 参数对照:-1: OneShot 50: PWM 50 Hz 100: PWM 100 Hz 200: PWM 200 Hz 400: PWM 400 Hz 需要重新启动: 是
+  - gpt注解：PWM_MAIN_TIM1参数用于配置MAIN 3-4的输出协议。您可以选择要使用的输出协议，也可以通过设置自定义的PWM频率来实现。请注意，如果要使用自定义频率，必须将值设置为大于0。根据需要，可以重新启动设备。
 - `[Min, Max]`：``
 - 默认值：`400`
 - 单位：``

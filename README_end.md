@@ -165,9 +165,9 @@
 
 2017. SYS_USE_IO (INT32)
 - 名称：SYS_USE_IO (INT32)
-- 参数描述：Set usage of IO board Comment: Can be used to use a configure the use of the IO board. 参数对照:0: IO PWM disabled (RC only) 1: IO enabled (RC & PWM) Reboot required: true
-  - 翻译：
-  - gpt注解：
+- 参数描述：Set usage of IO board Comment: Can be used to configure the use of the IO board. 参数对照:0: 禁用IO PWM（仅RC） 1: 启用IO板（RC和PWM） 需要重新启动: 是
+  - 翻译：设置IO板的使用方式 Comment: 可以用于配置IO板的使用方式。 参数对照:0: 禁用IO PWM（仅RC） 1: 启用IO板（RC和PWM） 需要重新启动: 是
+  - gpt注解：SYS_USE_IO参数用于设置IO板的使用方式。您可以选择禁用IO PWM（仅适用于RC控制）或启用IO板（同时支持RC和PWM控制）。请注意，修改此参数后需要重新启动设备。
 - `[Min, Max]`：``
 - 默认值：`0`
 - 单位：``
@@ -2905,7 +2905,7 @@
 
 2291. UAVCAN_NODE_ID (INT32)
 - 名称：UAVCAN_NODE_ID (INT32)
-- 参数描述：UAVCAN Node ID Comment: Read the specs at http://uavcan.org to learn more about Node ID. Reboot required: true
+- 参数描述：UAVCAN Node ID Comment: Read the specs at https://uavcan.org to learn more about Node ID. Reboot required: true
   - 翻译：
   - gpt注解：
 - `[Min, Max]`：`[1, 125]`

@@ -716,8 +716,8 @@
 1572. RC_RSSI_PWM_CHAN (INT32)
 - 名称：RC_RSSI_PWM_CHAN (INT32)
 - 参数描述：PWM input channel that provides RSSI Comment: 0: do not read RSSI from input channel 1-18: read RSSI from specified input channel Specify the range for RSSI input with RC_RSSI_PWM_MIN and RC_RSSI_PWM_MAX parameters. 参数对照:0: Unassigned 1: Channel 1 2: Channel 2 3: Channel 3 4: Channel 4 5: Channel 5 6: Channel 6 7: Channel 7 8: Channel 8 9: Channel 9 10: Channel 10 11: Channel 11 12: Channel 12 13: Channel 13 14: Channel 14 15: Channel 15 16: Channel 16 17: Channel 17 18: Channel 18
-  - 翻译：
-  - gpt注解：
+  - 翻译：提供RSSI的PWM输入通道 Comment: 0: 不从输入通道读取RSSI 1-18: 从指定输入通道读取RSSI 使用RC_RSSI_PWM_MIN和RC_RSSI_PWM_MAX参数指定RSSI输入范围。 参数对照:0: 未分配 1: 通道1 2: 通道2 3: 通道3 4: 通道4 5: 通道5 6: 通道6 7: 通道7 8: 通道8 9: 通道9 10: 通道10 11: 通道11 12: 通道12 13: 通道13 14: 通道14 15: 通道15 16: 通道16 17: 通道17 18: 通道18
+  - gpt注解：RC_RSSI_PWM_CHAN参数用于指定提供RSSI的PWM输入通道。您可以选择不从输入通道读取RSSI（设置为0），或者从指定的输入通道读取RSSI（设置为1-18）。请使用RC_RSSI_PWM_MIN和RC_RSSI_PWM_MAX参数指定RSSI输入的范围。
 - `[Min, Max]`：`[0, 18]`
 - 默认值：`0`
 - 单位：``
@@ -726,8 +726,8 @@
 1573. RC_RSSI_PWM_MAX (INT32)
 - 名称：RC_RSSI_PWM_MAX (INT32)
 - 参数描述：Max input value for RSSI reading Comment: Only used if RC_RSSI_PWM_CHAN > 0
-  - 翻译：
-  - gpt注解：
+  - 翻译：RSSI读取的最大输入值 Comment: 仅在RC_RSSI_PWM_CHAN > 0时使用
+  - gpt注解：RC_RSSI_PWM_MAX参数用于指定RSSI读取的最大输入值。请注意，此参数仅在RC_RSSI_PWM_CHAN大于0时才会生效。
 - `[Min, Max]`：`[0, 2000]`
 - 默认值：`2000`
 - 单位：``
@@ -736,8 +736,8 @@
 1574. RC_RSSI_PWM_MIN (INT32)
 - 名称：RC_RSSI_PWM_MIN (INT32)
 - 参数描述：Min input value for RSSI reading Comment: Only used if RC_RSSI_PWM_CHAN > 0
-  - 翻译：
-  - gpt注解：
+  - 翻译：RSSI读取的最小输入值 Comment: 仅在RC_RSSI_PWM_CHAN > 0时使用
+  - gpt注解：RC_RSSI_PWM_MIN参数用于指定RSSI读取的最小输入值。请注意，此参数仅在RC_RSSI_PWM_CHAN大于0时才会生效。
 - `[Min, Max]`：`[0, 2000]`
 - 默认值：`1000`
 - 单位：``
@@ -3706,8 +3706,8 @@
 1871. SENS_EN_LL40LS (INT32)
 - 名称：SENS_EN_LL40LS (INT32)
 - 参数描述：Lidar-Lite (LL40LS)  Values:0: Disabled 1: PWM 2: I2C Reboot required: true
-  - 翻译：
-  - gpt注解：
+  - 翻译：Lidar-Lite (LL40LS)  取值: 0: 禁用 1: PWM 2: I2C 需要重新启动: 是
+  - gpt注解：SENS_EN_LL40LS参数用于配置Lidar-Lite (LL40LS)传感器的启用方式。您可以选择禁用（0），使用PWM接口（1），或使用I2C接口（2）。请注意，修改此参数后需要重新启动设备。
 - `[Min, Max]`：`[0, 2]`
 - 默认值：`0`
 - 单位：``

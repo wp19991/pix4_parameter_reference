@@ -1796,8 +1796,8 @@
 180. PWM_AUX_TIM0 (INT32)
 - 名称：PWM_AUX_TIM0 (INT32)
 - 参数描述：Output Protocol Configuration for PWM Aux 1-4 Comment: Select which Output Protocol to use for outputs PWM Aux 1-4. Custom PWM rates can be used by directly setting any value >0. 参数对照:-5: DShot150 -4: DShot300 -3: DShot600 -2: DShot1200 -1: OneShot 50: PWM 50 Hz 100: PWM 100 Hz 200: PWM 200 Hz 400: PWM 400 Hz Reboot required: True
-  - 翻译：
-  - gpt注解：
+  - 翻译：PWM辅助1-4输出协议配置 Comment: 选择用于PWM辅助1-4输出的输出协议。可以通过直接设置任何值>0来使用自定义PWM频率。 参数对照:-5: DShot150 -4: DShot300 -3: DShot600 -2: DShot1200 -1: OneShot 50: PWM 50 Hz 100: PWM 100 Hz 200: PWM 200 Hz 400: PWM 400 Hz 需要重新启动: 是
+  - gpt注解：PWM_AUX_TIM0参数用于配置PWM辅助1-4的输出协议。您可以选择要使用的输出协议，也可以通过设置自定义的PWM频率来实现。请注意，如果要使用自定义频率，必须将值设置为大于0。根据需要，可以重新启动设备。
 - `[Min, Max]`：``
 - 默认值：`400`
 - 单位：``
@@ -2246,8 +2246,8 @@
 225. PWM_MAIN_TIM0 (INT32)
 - 名称：PWM_MAIN_TIM0 (INT32)
 - 参数描述：Output Protocol Configuration for MAIN 1-2 Comment: Select which Output Protocol to use for outputs MAIN 1-2. Custom PWM rates can be used by directly setting any value >0. 参数对照:-1: OneShot 50: PWM 50 Hz 100: PWM 100 Hz 200: PWM 200 Hz 400: PWM 400 Hz Reboot required: True
-  - 翻译：
-  - gpt注解：
+  - 翻译：MAIN 1-2的输出协议配置 Comment: 选择用于MAIN 1-2的输出协议。可以通过直接设置任何值>0来使用自定义PWM频率。 参数对照:-1: OneShot 50: PWM 50 Hz 100: PWM 100 Hz 200: PWM 200 Hz 400: PWM 400 Hz 需要重新启动: 是
+  - gpt注解：PWM_MAIN_TIM0参数用于配置MAIN 1-2的输出协议。您可以选择要使用的输出协议，也可以通过设置自定义的PWM频率来实现。请注意，如果要使用自定义频率，必须将值设置为大于0。根据需要，可以重新启动设备。
 - `[Min, Max]`：``
 - 默认值：`400`
 - 单位：``
@@ -2256,8 +2256,8 @@
 226. PWM_MAIN_TIM1 (INT32)
 - 名称：PWM_MAIN_TIM1 (INT32)
 - 参数描述：Output Protocol Configuration for MAIN 3-4 Comment: Select which Output Protocol to use for outputs MAIN 3-4. Custom PWM rates can be used by directly setting any value >0. 参数对照:-1: OneShot 50: PWM 50 Hz 100: PWM 100 Hz 200: PWM 200 Hz 400: PWM 400 Hz Reboot required: True
-  - 翻译：
-  - gpt注解：
+  - 翻译：MAIN 3-4的输出协议配置 Comment: 选择用于MAIN 3-4的输出协议。可以通过直接设置任何值>0来使用自定义PWM频率。 参数对照:-1: OneShot 50: PWM 50 Hz 100: PWM 100 Hz 200: PWM 200 Hz 400: PWM 400 Hz 需要重新启动: 是
+  - gpt注解：PWM_MAIN_TIM1参数用于配置MAIN 3-4的输出协议。您可以选择要使用的输出协议，也可以通过设置自定义的PWM频率来实现。请注意，如果要使用自定义频率，必须将值设置为大于0。根据需要，可以重新启动设备。
 - `[Min, Max]`：``
 - 默认值：`400`
 - 单位：``
@@ -5376,8 +5376,8 @@
 538. TRIG_PWM_NEUTRAL (INT32)
 - 名称：TRIG_PWM_NEUTRAL (INT32)
 - 参数描述：PWM neutral output on trigger pin    Reboot required: true
-  - 翻译：
-  - gpt注解：
+  - 翻译：触发引脚上的 PWM 中位值    需要重启: true
+  - gpt注解：TRIG_PWM_NEUTRAL 参数用于指定触发引脚上的 PWM 中位值。设置此参数后需要重新启动飞行控制器。
 - `[Min, Max]`：`[1000, 2000]`
 - 默认值：`1500`
 - 单位：`µs`
@@ -5386,8 +5386,8 @@
 539. TRIG_PWM_SHOOT (INT32)
 - 名称：TRIG_PWM_SHOOT (INT32)
 - 参数描述：PWM output to trigger shot    Reboot required: true
-  - 翻译：
-  - gpt注解：
+  - 翻译：用于触发射击的 PWM 输出    需要重启: true
+  - gpt注解：TRIG_PWM_SHOOT 参数用于指定触发射击的 PWM 输出。设置此参数后需要重新启动飞行控制器。
 - `[Min, Max]`：`[1000, 2000]`
 - 默认值：`1900`
 - 单位：`µs`
@@ -6195,7 +6195,7 @@
 
 620. CYPHAL_ID (INT32)
 - 名称：CYPHAL_ID (INT32)
-- 参数描述：Cyphal Node ID Comment: Read the specs at http://uavcan.org to learn more about Node ID. Reboot required: true
+- 参数描述：Cyphal Node ID Comment: Read the specs at https://uavcan.org to learn more about Node ID. Reboot required: true
   - 翻译：
   - gpt注解：
 - `[Min, Max]`：`[-1, 125]`
@@ -14306,8 +14306,8 @@
 1431. MC_PR_INT_LIM (FLOAT)
 - 名称：MC_PR_INT_LIM (FLOAT)
 - 参数描述：Pitch rate integrator limit Comment: Pitch rate integrator limit. Can be set to increase the amount of integrator available to counteract disturbances or reduced to improve settling time after large pitch moment trim changes.
-  - 翻译：
-  - gpt注解：
+  - 翻译：俯仰速率积分限制 Comment: 俯仰速率积分限制。可以设置以增加可用积分来对抗干扰，或减少以提高在大俯仰力矩修正后的稳定时间。
+  - gpt注解：MC_PR_INT_LIM参数代表俯仰速率的积分限制。您可以调整此值以增加可用的积分来抵消干扰，或减小它以提高在大俯仰力矩修正后的稳定时间。
 - `[Min, Max]`：`[0.0, ?] (0.01)`
 - 默认值：`0.30`
 - 单位：``
@@ -14316,8 +14316,8 @@
 1432. MC_ROLLRATE_D (FLOAT)
 - 名称：MC_ROLLRATE_D (FLOAT)
 - 参数描述：Roll rate D gain Comment: Roll rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.
-  - 翻译：
-  - gpt注解：
+  - 翻译：横滚速率D增益 Comment: 横滚速率微分增益。较小的值有助于减小快速振荡。如果值过大，振荡将再次出现。
+  - gpt注解：MC_ROLLRATE_D参数代表横滚速率的微分增益。较小的值有助于减小快速振荡。如果值过大，振荡将再次出现。
 - `[Min, Max]`：`[0.0, 0.01] (0.0005)`
 - 默认值：`0.003`
 - 单位：``
@@ -14326,8 +14326,8 @@
 1433. MC_ROLLRATE_FF (FLOAT)
 - 名称：MC_ROLLRATE_FF (FLOAT)
 - 参数描述：Roll rate feedforward Comment: Improves tracking performance.
-  - 翻译：
-  - gpt注解：
+  - 翻译：横滚速率前馈 Comment: 提高跟踪性能。
+  - gpt注解：MC_ROLLRATE_FF参数代表横滚速率的前馈项。它用于提高控制系统的跟踪性能。
 - `[Min, Max]`：`[0.0, ?]`
 - 默认值：`0.0`
 - 单位：``
@@ -14336,8 +14336,8 @@
 1434. MC_ROLLRATE_I (FLOAT)
 - 名称：MC_ROLLRATE_I (FLOAT)
 - 参数描述：Roll rate I gain Comment: Roll rate integral gain. Can be set to compensate static thrust difference or gravity center offset.
-  - 翻译：
-  - gpt注解：
+  - 翻译：横滚速率I增益 Comment: 横滚速率积分增益。可设置以补偿静态推力差异或重心偏移。
+  - gpt注解：MC_ROLLRATE_I参数代表横滚速率的积分增益。您可以调整此值以补偿静态推力差异或重心偏移。
 - `[Min, Max]`：`[0.0, ?] (0.01)`
 - 默认值：`0.2`
 - 单位：``
@@ -14346,8 +14346,8 @@
 1435. MC_ROLLRATE_K (FLOAT)
 - 名称：MC_ROLLRATE_K (FLOAT)
 - 参数描述：Roll rate controller gain Comment: Global gain of the controller. This gain scales the P, I and D terms of the controller: output = MC_ROLLRATE_K * (MC_ROLLRATE_P * error + MC_ROLLRATE_I * error_integral + MC_ROLLRATE_D * error_derivative) Set MC_ROLLRATE_P=1 to implement a PID in the ideal form. Set MC_ROLLRATE_K=1 to implement a PID in the parallel form.
-  - 翻译：
-  - gpt注解：
+  - 翻译：横滚速率控制器增益 Comment: 控制器的全局增益。该增益缩放控制器的P、I和D项：输出 = MC_ROLLRATE_K * (MC_ROLLRATE_P * 误差 + MC_ROLLRATE_I * 误差积分 + MC_ROLLRATE_D * 误差导数) 将MC_ROLLRATE_P设置为1以实现理想形式的PID。将MC_ROLLRATE_K设置为1以实现并联形式的PID。
+  - gpt注解：MC_ROLLRATE_K参数代表横滚速率控制器的全局增益。该值用于缩放控制器的P、I和D项，从而影响控制输出。您可以将MC_ROLLRATE_P设置为1以实现理想形式的PID控制，将MC_ROLLRATE_K设置为1以实现并联形式的PID控制。
 - `[Min, Max]`：`[0.01, 5.0] (0.0005)`
 - 默认值：`1.0`
 - 单位：``
@@ -14356,8 +14356,8 @@
 1436. MC_ROLLRATE_P (FLOAT)
 - 名称：MC_ROLLRATE_P (FLOAT)
 - 参数描述：Roll rate P gain Comment: Roll rate proportional gain, i.e. control output for angular speed error 1 rad/s.
-  - 翻译：
-  - gpt注解：
+  - 翻译：横滚速率P增益 Comment: 横滚速率比例增益，即角速度误差1弧度/秒的控制输出。
+  - gpt注解：MC_ROLLRATE_P参数代表横滚速率的比例增益，也就是角速度误差1弧度/秒时的控制输出。
 - `[Min, Max]`：`[0.01, 0.5] (0.01)`
 - 默认值：`0.15`
 - 单位：``
@@ -14366,8 +14366,8 @@
 1437. MC_RR_INT_LIM (FLOAT)
 - 名称：MC_RR_INT_LIM (FLOAT)
 - 参数描述：Roll rate integrator limit Comment: Roll rate integrator limit. Can be set to increase the amount of integrator available to counteract disturbances or reduced to improve settling time after large roll moment trim changes.
-  - 翻译：
-  - gpt注解：
+  - 翻译：横滚速率积分限制 Comment: 横滚速率积分限制。可以设置以增加可用积分来对抗干扰，或减少以提高在大横滚力矩修正后的稳定时间。
+  - gpt注解：MC_RR_INT_LIM参数代表横滚速率的积分限制。您可以调整此值以增加可用的积分来抵消干扰，或减小它以提高在大横滚力矩修正后的稳定时间。
 - `[Min, Max]`：`[0.0, ?] (0.01)`
 - 默认值：`0.30`
 - 单位：``
@@ -14376,8 +14376,8 @@
 1438. MC_YAWRATE_D (FLOAT)
 - 名称：MC_YAWRATE_D (FLOAT)
 - 参数描述：Yaw rate D gain Comment: Yaw rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.
-  - 翻译：
-  - gpt注解：
+  - 翻译：偏航速率D增益 Comment: 偏航速率微分增益。较小的值有助于减小快速振荡。如果值过大，振荡将再次出现。
+  - gpt注解：MC_YAWRATE_D参数代表偏航速率的微分增益。较小的值有助于减小快速振荡。如果值过大，振荡将再次出现。
 - `[Min, Max]`：`[0.0, ?] (0.01)`
 - 默认值：`0.0`
 - 单位：``
@@ -14506,8 +14506,8 @@
 1451. MOT_SLEW_MAX (FLOAT)
 - 名称：MOT_SLEW_MAX (FLOAT)
 - 参数描述：Minimum motor rise time (slew rate limit) Comment: Minimum time allowed for the motor input signal to pass through a range of 1000 PWM units. A value x means that the motor signal can only go from 1000 to 2000 PWM in minimum x seconds. Zero means that slew rate limiting is disabled.
-  - 翻译：
-  - gpt注解：
+  - 翻译：电机最小上升时间（斜升速率限制） Comment: 允许电机输入信号通过1000 PWM单位范围所需的最短时间。值x表示电机信号至少需要x秒从1000 PWM上升到2000 PWM。零表示斜升速率限制已禁用。
+  - gpt注解：MOT_SLEW_MAX参数代表电机的最小上升时间，即允许电机输入信号在1000 PWM单位范围内的最短时间。值x表示电机信号至少需要x秒从1000 PWM上升到2000 PWM。零表示斜升速率限制已禁用。
 - `[Min, Max]`：`[0.0, ?]`
 - 默认值：`0.0`
 - 单位：`s/(1000*PWM)`
@@ -14516,8 +14516,8 @@
 1452. PWM_SBUS_MODE (INT32)
 - 名称：PWM_SBUS_MODE (INT32)
 - 参数描述：S.BUS out Comment: Set to 1 to enable S.BUS version 1 output instead of RSSI.
-  - 翻译：
-  - gpt注解：
+  - 翻译：S.BUS输出 Comment: 设置为1以启用S.BUS版本1输出，而不是RSSI。
+  - gpt注解：PWM_SBUS_MODE参数用于控制S.BUS输出。将其设置为1以启用S.BUS版本1输出，而不是RSSI。
 - `[Min, Max]`：``
 - 默认值：`Disabled (0)`
 - 单位：``
@@ -15716,8 +15716,8 @@
 1572. RC_RSSI_PWM_CHAN (INT32)
 - 名称：RC_RSSI_PWM_CHAN (INT32)
 - 参数描述：PWM input channel that provides RSSI Comment: 0: do not read RSSI from input channel 1-18: read RSSI from specified input channel Specify the range for RSSI input with RC_RSSI_PWM_MIN and RC_RSSI_PWM_MAX parameters. 参数对照:0: Unassigned 1: Channel 1 2: Channel 2 3: Channel 3 4: Channel 4 5: Channel 5 6: Channel 6 7: Channel 7 8: Channel 8 9: Channel 9 10: Channel 10 11: Channel 11 12: Channel 12 13: Channel 13 14: Channel 14 15: Channel 15 16: Channel 16 17: Channel 17 18: Channel 18
-  - 翻译：
-  - gpt注解：
+  - 翻译：提供RSSI的PWM输入通道 Comment: 0: 不从输入通道读取RSSI 1-18: 从指定输入通道读取RSSI 使用RC_RSSI_PWM_MIN和RC_RSSI_PWM_MAX参数指定RSSI输入范围。 参数对照:0: 未分配 1: 通道1 2: 通道2 3: 通道3 4: 通道4 5: 通道5 6: 通道6 7: 通道7 8: 通道8 9: 通道9 10: 通道10 11: 通道11 12: 通道12 13: 通道13 14: 通道14 15: 通道15 16: 通道16 17: 通道17 18: 通道18
+  - gpt注解：RC_RSSI_PWM_CHAN参数用于指定提供RSSI的PWM输入通道。您可以选择不从输入通道读取RSSI（设置为0），或者从指定的输入通道读取RSSI（设置为1-18）。请使用RC_RSSI_PWM_MIN和RC_RSSI_PWM_MAX参数指定RSSI输入的范围。
 - `[Min, Max]`：`[0, 18]`
 - 默认值：`0`
 - 单位：``
@@ -15726,8 +15726,8 @@
 1573. RC_RSSI_PWM_MAX (INT32)
 - 名称：RC_RSSI_PWM_MAX (INT32)
 - 参数描述：Max input value for RSSI reading Comment: Only used if RC_RSSI_PWM_CHAN > 0
-  - 翻译：
-  - gpt注解：
+  - 翻译：RSSI读取的最大输入值 Comment: 仅在RC_RSSI_PWM_CHAN > 0时使用
+  - gpt注解：RC_RSSI_PWM_MAX参数用于指定RSSI读取的最大输入值。请注意，此参数仅在RC_RSSI_PWM_CHAN大于0时才会生效。
 - `[Min, Max]`：`[0, 2000]`
 - 默认值：`2000`
 - 单位：``
@@ -15736,8 +15736,8 @@
 1574. RC_RSSI_PWM_MIN (INT32)
 - 名称：RC_RSSI_PWM_MIN (INT32)
 - 参数描述：Min input value for RSSI reading Comment: Only used if RC_RSSI_PWM_CHAN > 0
-  - 翻译：
-  - gpt注解：
+  - 翻译：RSSI读取的最小输入值 Comment: 仅在RC_RSSI_PWM_CHAN > 0时使用
+  - gpt注解：RC_RSSI_PWM_MIN参数用于指定RSSI读取的最小输入值。请注意，此参数仅在RC_RSSI_PWM_CHAN大于0时才会生效。
 - `[Min, Max]`：`[0, 2000]`
 - 默认值：`1000`
 - 单位：``
@@ -18706,8 +18706,8 @@
 1871. SENS_EN_LL40LS (INT32)
 - 名称：SENS_EN_LL40LS (INT32)
 - 参数描述：Lidar-Lite (LL40LS)  Values:0: Disabled 1: PWM 2: I2C Reboot required: true
-  - 翻译：
-  - gpt注解：
+  - 翻译：Lidar-Lite (LL40LS)  取值: 0: 禁用 1: PWM 2: I2C 需要重新启动: 是
+  - gpt注解：SENS_EN_LL40LS参数用于配置Lidar-Lite (LL40LS)传感器的启用方式。您可以选择禁用（0），使用PWM接口（1），或使用I2C接口（2）。请注意，修改此参数后需要重新启动设备。
 - `[Min, Max]`：`[0, 2]`
 - 默认值：`0`
 - 单位：``
@@ -20165,9 +20165,9 @@
 
 2017. SYS_USE_IO (INT32)
 - 名称：SYS_USE_IO (INT32)
-- 参数描述：Set usage of IO board Comment: Can be used to use a configure the use of the IO board. 参数对照:0: IO PWM disabled (RC only) 1: IO enabled (RC & PWM) Reboot required: true
-  - 翻译：
-  - gpt注解：
+- 参数描述：Set usage of IO board Comment: Can be used to configure the use of the IO board. 参数对照:0: 禁用IO PWM（仅RC） 1: 启用IO板（RC和PWM） 需要重新启动: 是
+  - 翻译：设置IO板的使用方式 Comment: 可以用于配置IO板的使用方式。 参数对照:0: 禁用IO PWM（仅RC） 1: 启用IO板（RC和PWM） 需要重新启动: 是
+  - gpt注解：SYS_USE_IO参数用于设置IO板的使用方式。您可以选择禁用IO PWM（仅适用于RC控制）或启用IO板（同时支持RC和PWM控制）。请注意，修改此参数后需要重新启动设备。
 - `[Min, Max]`：``
 - 默认值：`0`
 - 单位：``
@@ -22905,7 +22905,7 @@
 
 2291. UAVCAN_NODE_ID (INT32)
 - 名称：UAVCAN_NODE_ID (INT32)
-- 参数描述：UAVCAN Node ID Comment: Read the specs at http://uavcan.org to learn more about Node ID. Reboot required: true
+- 参数描述：UAVCAN Node ID Comment: Read the specs at https://uavcan.org to learn more about Node ID. Reboot required: true
   - 翻译：
   - gpt注解：
 - `[Min, Max]`：`[1, 125]`

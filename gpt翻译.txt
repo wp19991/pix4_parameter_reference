@@ -1,10 +1,10 @@
 根据下面的示例，不修改原有参数描述键值对，将翻译后的“参数描述”新建一个"翻译"的键值对来保存，这是一个关于px4参数的说明，可以在翻译的后面添加一些帮助性的注解，返回一个新的json格式的给我，不修改原有参数描述键值对的翻译，并将翻译后的描述放入新的 "翻译" 键值对中：
 ```json
     {
-        "名称": "MC_YAWRATE_K (FLOAT)",
-        "参数描述": "Yaw rate controller gain Comment: Global gain of the controller. This gain scales the P, I and D terms of the controller: output = MC_YAWRATE_K * (MC_YAWRATE_P * error + MC_YAWRATE_I * error_integral + MC_YAWRATE_D * error_derivative) Set MC_YAWRATE_P=1 to implement a PID in the ideal form. Set MC_YAWRATE_K=1 to implement a PID in the parallel form.",
-        "[Min, Max] (Incr.)": "[0.0, 5.0] (0.0005)",
-        "默认值": "1.0",
+        "名称": "PWM_MAIN_TIM0 (INT32)",
+        "参数描述": "Output Protocol Configuration for MAIN 1-2 Comment: Select which Output Protocol to use for outputs MAIN 1-2. Custom PWM rates can be used by directly setting any value >0. 参数对照:-1: OneShot 50: PWM 50 Hz 100: PWM 100 Hz 200: PWM 200 Hz 400: PWM 400 Hz Reboot required: True",
+        "[Min, Max] (Incr.)": "",
+        "默认值": "400",
         "单位": ""
     }
 ```

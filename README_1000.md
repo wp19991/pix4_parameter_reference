@@ -376,8 +376,8 @@
 538. TRIG_PWM_NEUTRAL (INT32)
 - 名称：TRIG_PWM_NEUTRAL (INT32)
 - 参数描述：PWM neutral output on trigger pin    Reboot required: true
-  - 翻译：
-  - gpt注解：
+  - 翻译：触发引脚上的 PWM 中位值    需要重启: true
+  - gpt注解：TRIG_PWM_NEUTRAL 参数用于指定触发引脚上的 PWM 中位值。设置此参数后需要重新启动飞行控制器。
 - `[Min, Max]`：`[1000, 2000]`
 - 默认值：`1500`
 - 单位：`µs`
@@ -386,8 +386,8 @@
 539. TRIG_PWM_SHOOT (INT32)
 - 名称：TRIG_PWM_SHOOT (INT32)
 - 参数描述：PWM output to trigger shot    Reboot required: true
-  - 翻译：
-  - gpt注解：
+  - 翻译：用于触发射击的 PWM 输出    需要重启: true
+  - gpt注解：TRIG_PWM_SHOOT 参数用于指定触发射击的 PWM 输出。设置此参数后需要重新启动飞行控制器。
 - `[Min, Max]`：`[1000, 2000]`
 - 默认值：`1900`
 - 单位：`µs`
@@ -1195,7 +1195,7 @@
 
 620. CYPHAL_ID (INT32)
 - 名称：CYPHAL_ID (INT32)
-- 参数描述：Cyphal Node ID Comment: Read the specs at http://uavcan.org to learn more about Node ID. Reboot required: true
+- 参数描述：Cyphal Node ID Comment: Read the specs at https://uavcan.org to learn more about Node ID. Reboot required: true
   - 翻译：
   - gpt注解：
 - `[Min, Max]`：`[-1, 125]`
