@@ -12,8 +12,10 @@ readme_str = '''# pix4_parameter_reference
 
 '''
 
-for i,t_data in enumerate(px4_data):
-    t_str = f'''{i+1}. {t_data['名称']}
+t_readme_str = readme_str
+
+for i, t_data in enumerate(px4_data):
+    t_str = f'''{i + 1}. {t_data['名称']}
 - 名称：{t_data['名称']}
 - 参数描述：{t_data['参数描述']}
   - 翻译：{t_data.get('翻译', {'参数描述': '', '注解': ''}).get('参数描述', '')}
@@ -26,6 +28,12 @@ for i,t_data in enumerate(px4_data):
 '''
     print(t_str)
     readme_str += t_str
+    t_readme_str += t_str
+
+    if (i+1) % 500 == 0:
+        with open(f'README_{i}.md', 'w', encoding='utf-8') as f:
+            f.write(t_readme_str)
+        t_readme_str = readme_str
 
 with open('README.md', 'w', encoding='utf-8') as f:
     f.write(readme_str)
