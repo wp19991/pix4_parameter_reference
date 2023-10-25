@@ -12,6 +12,7 @@ readme_str = '''# pix4_parameter_reference
 
 '''
 
+all_readme_str = readme_str
 t_readme_str = readme_str
 
 for i, t_data in enumerate(px4_data):
@@ -27,13 +28,17 @@ for i, t_data in enumerate(px4_data):
 
 '''
     print(t_str)
-    readme_str += t_str
+    all_readme_str += t_str
     t_readme_str += t_str
 
     if (i+1) % 500 == 0:
-        with open(f'README_{i}.md', 'w', encoding='utf-8') as f:
+        with open(f'README_{i+1}.md', 'w', encoding='utf-8') as f:
             f.write(t_readme_str)
         t_readme_str = readme_str
 
+with open(f'README_end.md', 'w', encoding='utf-8') as f:
+    f.write(t_readme_str)
+t_readme_str = readme_str
+
 with open('README.md', 'w', encoding='utf-8') as f:
-    f.write(readme_str)
+    f.write(all_readme_str)
