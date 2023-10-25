@@ -491,146 +491,246 @@
     "单位": ""
 }
 ,
-    {
-        "名称": "PCA9685_DIS11 (INT32)",
-        "参数描述": "PCA9685 Output Channel 11 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
-        "[Min, Max] (Incr.)": "[800, 2200]",
-        "默认值": "1000",
-        "单位": ""
+{
+    "名称": "PCA9685_DIS11 (INT32)",
+    "参数描述": "PCA9685 Output Channel 11 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 11 失效值 说明：这是在未解锁时设置的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。",
+        "注解": "PCA9685 输出通道 11 失效值用于设置未解锁时的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。"
     },
-    {
-        "名称": "PCA9685_DIS12 (INT32)",
-        "参数描述": "PCA9685 Output Channel 12 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
-        "[Min, Max] (Incr.)": "[800, 2200]",
-        "默认值": "1000",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[800, 2200]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_DIS12 (INT32)",
+    "参数描述": "PCA9685 Output Channel 12 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 12 失效值 说明：这是在未解锁时设置的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。",
+        "注解": "PCA9685 输出通道 12 失效值用于设置未解锁时的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。"
     },
-    {
-        "名称": "PCA9685_DIS13 (INT32)",
-        "参数描述": "PCA9685 Output Channel 13 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
-        "[Min, Max] (Incr.)": "[800, 2200]",
-        "默认值": "1000",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[800, 2200]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_DIS13 (INT32)",
+    "参数描述": "PCA9685 Output Channel 13 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 13 失效值 说明：这是在未解锁时设置的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。",
+        "注解": "PCA9685 输出通道 13 失效值用于设置未解锁时的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。"
     },
-    {
-        "名称": "PCA9685_DIS14 (INT32)",
-        "参数描述": "PCA9685 Output Channel 14 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
-        "[Min, Max] (Incr.)": "[800, 2200]",
-        "默认值": "1000",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[800, 2200]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_DIS14 (INT32)",
+    "参数描述": "PCA9685 Output Channel 14 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 14 失效值 说明：这是在未解锁时设置的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。",
+        "注解": "PCA9685 输出通道 14 失效值用于设置未解锁时的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。"
     },
-    {
-        "名称": "PCA9685_DIS15 (INT32)",
-        "参数描述": "PCA9685 Output Channel 15 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
-        "[Min, Max] (Incr.)": "[800, 2200]",
-        "默认值": "1000",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[800, 2200]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_DIS15 (INT32)",
+    "参数描述": "PCA9685 Output Channel 15 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 15 失效值 说明：这是在未解锁时设置的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。",
+        "注解": "PCA9685 输出通道 15 失效值用于设置未解锁时的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。"
     },
-    {
-        "名称": "PCA9685_DIS16 (INT32)",
-        "参数描述": "PCA9685 Output Channel 16 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
-        "[Min, Max] (Incr.)": "[800, 2200]",
-        "默认值": "1000",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[800, 2200]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_DIS16 (INT32)",
+    "参数描述": "PCA9685 Output Channel 16 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 16 失效值 说明：这是在未解锁时设置的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。",
+        "注解": "PCA9685 输出通道 16 失效值用于设置未解锁时的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。"
     },
-    {
-        "名称": "PCA9685_DIS2 (INT32)",
-        "参数描述": "PCA9685 Output Channel 2 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
-        "[Min, Max] (Incr.)": "[800, 2200]",
-        "默认值": "1000",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[800, 2200]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_DIS2 (INT32)",
+    "参数描述": "PCA9685 Output Channel 2 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 2 失效值 说明：这是在未解锁时设置的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。",
+        "注解": "PCA9685 输出通道 2 失效值用于设置未解锁时的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。"
     },
-    {
-        "名称": "PCA9685_DIS3 (INT32)",
-        "参数描述": "PCA9685 Output Channel 3 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
-        "[Min, Max] (Incr.)": "[800, 2200]",
-        "默认值": "1000",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[800, 2200]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_DIS3 (INT32)",
+    "参数描述": "PCA9685 Output Channel 3 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 3 失效值 说明：这是在未解锁时设置的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。",
+        "注解": "PCA9685 输出通道 3 失效值用于设置未解锁时的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。"
     },
-    {
-        "名称": "PCA9685_DIS4 (INT32)",
-        "参数描述": "PCA9685 Output Channel 4 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
-        "[Min, Max] (Incr.)": "[800, 2200]",
-        "默认值": "1000",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[800, 2200]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_DIS4 (INT32)",
+    "参数描述": "PCA9685 Output Channel 4 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 4 失效值 说明：这是在未解锁时设置的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。",
+        "注解": "PCA9685 输出通道 4 失效值用于设置未解锁时的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。"
     },
-    {
-        "名称": "PCA9685_DIS5 (INT32)",
-        "参数描述": "PCA9685 Output Channel 5 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
-        "[Min, Max] (Incr.)": "[800, 2200]",
-        "默认值": "1000",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[800, 2200]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_DIS5 (INT32)",
+    "参数描述": "PCA9685 Output Channel 5 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 5 失效值 说明：这是在未解锁时设置的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。",
+        "注解": "PCA9685 输出通道 5 失效值用于设置未解锁时的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。"
     },
-    {
-        "名称": "PCA9685_DIS6 (INT32)",
-        "参数描述": "PCA9685 Output Channel 6 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
-        "[Min, Max] (Incr.)": "[800, 2200]",
-        "默认值": "1000",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[800, 2200]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_DIS6 (INT32)",
+    "参数描述": "PCA9685 Output Channel 6 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 6 失效值 说明：这是在未解锁时设置的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。",
+        "注解": "PCA9685 输出通道 6 失效值用于设置未解锁时的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。"
     },
-    {
-        "名称": "PCA9685_DIS7 (INT32)",
-        "参数描述": "PCA9685 Output Channel 7 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
-        "[Min, Max] (Incr.)": "[800, 2200]",
-        "默认值": "1000",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[800, 2200]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_DIS7 (INT32)",
+    "参数描述": "PCA9685 Output Channel 7 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 7 失效值 说明：这是在未解锁时设置的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。",
+        "注解": "PCA9685 输出通道 7 失效值用于设置未解锁时的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。"
     },
-    {
-        "名称": "PCA9685_DIS8 (INT32)",
-        "参数描述": "PCA9685 Output Channel 8 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
-        "[Min, Max] (Incr.)": "[800, 2200]",
-        "默认值": "1000",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[800, 2200]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_DIS8 (INT32)",
+    "参数描述": "PCA9685 Output Channel 8 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 8 失效值 说明：这是在未解锁时设置的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。",
+        "注解": "PCA9685 输出通道 8 失效值用于设置未解锁时的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。"
     },
-    {
-        "名称": "PCA9685_DIS9 (INT32)",
-        "参数描述": "PCA9685 Output Channel 9 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
-        "[Min, Max] (Incr.)": "[800, 2200]",
-        "默认值": "1000",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[800, 2200]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_DIS9 (INT32)",
+    "参数描述": "PCA9685 Output Channel 9 Disarmed Value Comment: This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 9 失效值 说明：这是在未解锁时设置的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。",
+        "注解": "PCA9685 输出通道 9 失效值用于设置未解锁时的输出值。请注意，如果设置了 COM_PREARM_MODE，则非电机输出可能已在准备解锁状态下激活。"
     },
-    {
-        "名称": "PCA9685_DUTY_EN (INT32)",
-        "参数描述": "Put the selected channels into Duty-Cycle output mode Comment: The driver will output standard pulse-width encoded signal without this bit set. To make PCA9685 output in duty-cycle fashion, please enable the corresponding channel bit here and adjusting standard params to suit your need. The driver will have 12bits resolution for duty-cycle output. That means to achieve 0% to 100% output range on one channel, the corresponding params MIN and MAX for the channel should be set to 0 and 4096. Other standard params follows the same rule. Bitmask:0: Put CH1 to Duty-Cycle mode 1: Put CH2 to Duty-Cycle mode 2: Put CH3 to Duty-Cycle mode 3: Put CH4 to Duty-Cycle mode 4: Put CH5 to Duty-Cycle mode 5: Put CH6 to Duty-Cycle mode 6: Put CH7 to Duty-Cycle mode 7: Put CH8 to Duty-Cycle mode 8: Put CH9 to Duty-Cycle mode 9: Put CH10 to Duty-Cycle mode 10: Put CH11 to Duty-Cycle mode 11: Put CH12 to Duty-Cycle mode 12: Put CH13 to Duty-Cycle mode 13: Put CH14 to Duty-Cycle mode 14: Put CH15 to Duty-Cycle mode 15: Put CH16 to Duty-Cycle mode",
-        "[Min, Max] (Incr.)": "[0, 65535]",
-        "默认值": "0",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[800, 2200]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_DUTY_EN (INT32)",
+    "参数描述": "Put the selected channels into Duty-Cycle output mode Comment: The driver will output standard pulse-width encoded signal without this bit set. To make PCA9685 output in duty-cycle fashion, please enable the corresponding channel bit here and adjusting standard params to suit your need. The driver will have 12bits resolution for duty-cycle output. That means to achieve 0% to 100% output range on one channel, the corresponding params MIN and MAX for the channel should be set to 0 and 4096. Other standard params follows the same rule. Bitmask:0: Put CH1 to Duty-Cycle mode 1: Put CH2 to Duty-Cycle mode 2: Put CH3 to Duty-Cycle mode 3: Put CH4 to Duty-Cycle mode 4: Put CH5 to Duty-Cycle mode 5: Put CH6 to Duty-Cycle mode 6: Put CH7 to Duty-Cycle mode 7: Put CH8 to Duty-Cycle mode 8: Put CH9 to Duty-Cycle mode 9: Put CH10 to Duty-Cycle mode 10: Put CH11 to Duty-Cycle mode 11: Put CH12 to Duty-Cycle mode 12: Put CH13 to Duty-Cycle mode 13: Put CH14 to Duty-Cycle mode 14: Put CH15 to Duty-Cycle mode 15: Put CH16 to Duty-Cycle mode",
+    "翻译": {
+        "参数描述": "将选定的通道置于占空比输出模式 Comment: 如果没有设置此位，驱动程序将输出标准的脉宽编码信号。要使PCA9685以占空比方式输出，请在此处启用相应的通道位，并调整标准参数以满足您的需求。驱动程序将具有12位分辨率的占空比输出。这意味着要在一个通道上实现0%到100%的输出范围，该通道的相应参数 MIN 和 MAX 应设置为0和4096。其他标准参数遵循相同的规则。 Bitmask:0: 将 CH1 置于占空比模式 1: 将 CH2 置于占空比模式 2: 将 CH3 置于占空比模式 3: 将 CH4 置于占空比模式 4: 将 CH5 置于占空比模式 5: 将 CH6 置于占空比模式 6: 将 CH7 置于占空比模式 7: 将 CH8 置于占空比模式 8: 将 CH9 置于占空比模式 9: 将 CH10 置于占空比模式 10: 将 CH11 置于占空比模式 11: 将 CH12 置于占空比模式 12: 将 CH13 置于占空比模式 13: 将 CH14 置于占空比模式 14: 将 CH15 置于占空比模式 15: 将 CH16 置于占空比模式",
+        "注解": "PCA9685_DUTY_EN 参数用于将选定的通道切换到占空比输出模式。如果未设置此位，PCA9685驱动程序将输出标准的脉宽编码信号。要使PCA9685以占空比方式输出，请在此参数中启用相应通道位，并根据需要调整标准参数。驱动程序将以12位分辨率输出占空比信号。这意味着为了在一个通道上实现0%到100%的输出范围，该通道的 MIN 和 MAX 参数应分别设置为0和4096。其他标准参数遵循相同的规则。"
     },
-    {
-        "名称": "PCA9685_FAIL1 (INT32)",
-        "参数描述": "PCA9685 Output Channel 1 Failsafe Value Comment: This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC1).",
-        "[Min, Max] (Incr.)": "[-1, 2200]",
-        "默认值": "-1",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[0, 65535]",
+    "默认值": "0",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_FAIL1 (INT32)",
+    "参数描述": "PCA9685 Output Channel 1 Failsafe Value Comment: This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC1).",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 1 失控值 Comment: 这是在失控模式下设置的输出值。当设置为 -1（默认值）时，该值取决于功能（参见 PCA9685_FUNC1）。",
+        "注解": "PCA9685_FAIL1 参数用于设置失控模式下的输出值。当将其设置为 -1 时（默认值），该值将取决于 PCA9685_FUNC1 参数的设置。"
     },
-    {
-        "名称": "PCA9685_FAIL10 (INT32)",
-        "参数描述": "PCA9685 Output Channel 10 Failsafe Value Comment: This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC10).",
-        "[Min, Max] (Incr.)": "[-1, 2200]",
-        "默认值": "-1",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[-1, 2200]",
+    "默认值": "-1",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_FAIL10 (INT32)",
+    "参数描述": "PCA9685 Output Channel 10 Failsafe Value Comment: This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC10).",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 10 失控值 Comment: 这是在失控模式下设置的输出值。当设置为 -1（默认值）时，该值取决于功能（参见 PCA9685_FUNC10）。",
+        "注解": "PCA9685_FAIL10 参数用于设置失控模式下的输出值。当将其设置为 -1 时（默认值），该值将取决于 PCA9685_FUNC10 参数的设置。"
     },
-    {
-        "名称": "PCA9685_FAIL11 (INT32)",
-        "参数描述": "PCA9685 Output Channel 11 Failsafe Value Comment: This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC11).",
-        "[Min, Max] (Incr.)": "[-1, 2200]",
-        "默认值": "-1",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[-1, 2200]",
+    "默认值": "-1",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_FAIL11 (INT32)",
+    "参数描述": "PCA9685 Output Channel 11 Failsafe Value Comment: This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC11).",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 11 失控值 Comment: 这是在失控模式下设置的输出值。当设置为 -1（默认值）时，该值取决于功能（参见 PCA9685_FUNC11）。",
+        "注解": "PCA9685_FAIL11 参数用于设置失控模式下的输出值。当将其设置为 -1 时（默认值），该值将取决于 PCA9685_FUNC11 参数的设置。"
     },
-    {
-        "名称": "PCA9685_FAIL12 (INT32)",
-        "参数描述": "PCA9685 Output Channel 12 Failsafe Value Comment: This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC12).",
-        "[Min, Max] (Incr.)": "[-1, 2200]",
-        "默认值": "-1",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[-1, 2200]",
+    "默认值": "-1",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_FAIL12 (INT32)",
+    "参数描述": "PCA9685 Output Channel 12 Failsafe Value Comment: This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC12).",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 12 失控值 Comment: 这是在失控模式下设置的输出值。当设置为 -1（默认值）时，该值取决于功能（参见 PCA9685_FUNC12）。",
+        "注解": "PCA9685_FAIL12 参数用于设置失控模式下的输出值。当将其设置为 -1 时（默认值），该值将取决于 PCA9685_FUNC12 参数的设置。"
     },
-    {
-        "名称": "PCA9685_FAIL13 (INT32)",
-        "参数描述": "PCA9685 Output Channel 13 Failsafe Value Comment: This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC13).",
-        "[Min, Max] (Incr.)": "[-1, 2200]",
-        "默认值": "-1",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[-1, 2200]",
+    "默认值": "-1",
+    "单位": ""
+}
+,
+{
+    "名称": "PCA9685_FAIL13 (INT32)",
+    "参数描述": "PCA9685 Output Channel 13 Failsafe Value Comment: This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC13).",
+    "翻译": {
+        "参数描述": "PCA9685 输出通道 13 失控值 Comment: 这是在失控模式下设置的输出值。当设置为 -1（默认值）时，该值取决于功能（参见 PCA9685_FUNC13）。",
+        "注解": "PCA9685_FAIL13 参数用于设置失控模式下的输出值。当将其设置为 -1 时（默认值），该值将取决于 PCA9685_FUNC13 参数的设置。"
     },
+    "[Min, Max] (Incr.)": "[-1, 2200]",
+    "默认值": "-1",
+    "单位": ""
+}
+,
     {
         "名称": "PCA9685_FAIL14 (INT32)",
         "参数描述": "PCA9685 Output Channel 14 Failsafe Value Comment: This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC14).",
@@ -4635,48 +4735,78 @@
         "默认值": "-1",
         "单位": ""
     },
-    {
-        "名称": "DSHOT_3D_DEAD_H (INT32)",
-        "参数描述": "DSHOT 3D deadband high Comment: When the actuator_output is between DSHOT_3D_DEAD_L and DSHOT_3D_DEAD_H, motor will not spin. This value is with respect to the mixer_module range (0-1999), not the DSHOT values.",
-        "[Min, Max] (Incr.)": "[1000, 1999]",
-        "默认值": "1000",
-        "单位": ""
+{
+    "名称": "DSHOT_3D_DEAD_H (INT32)",
+    "参数描述": "DSHOT 3D deadband high Comment: When the actuator_output is between DSHOT_3D_DEAD_L and DSHOT_3D_DEAD_H, motor will not spin. This value is with respect to the mixer_module range (0-1999), not the DSHOT values.",
+    "翻译": {
+        "参数描述": "DSHOT 3D 死区上限 Comment: 当执行器输出位于 DSHOT_3D_DEAD_L 和 DSHOT_3D_DEAD_H 之间时，电机不会旋转。此值是相对于混合器模块范围（0-1999）的，而不是 DSHOT 值。",
+        "注解": "DSHOT_3D_DEAD_H 参数用于定义执行器输出范围内的死区上限。当执行器输出位于 DSHOT_3D_DEAD_L 和 DSHOT_3D_DEAD_H 之间时，电机将不会旋转。需要注意，此值是相对于混合器模块范围（0-1999）的，而不是 DSHOT 协议的值。"
     },
-    {
-        "名称": "DSHOT_3D_DEAD_L (INT32)",
-        "参数描述": "DSHOT 3D deadband low Comment: When the actuator_output is between DSHOT_3D_DEAD_L and DSHOT_3D_DEAD_H, motor will not spin. This value is with respect to the mixer_module range (0-1999), not the DSHOT values.",
-        "[Min, Max] (Incr.)": "[0, 1000]",
-        "默认值": "1000",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[1000, 1999]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "DSHOT_3D_DEAD_L (INT32)",
+    "参数描述": "DSHOT 3D deadband low Comment: When the actuator_output is between DSHOT_3D_DEAD_L and DSHOT_3D_DEAD_H, motor will not spin. This value is with respect to the mixer_module range (0-1999), not the DSHOT values.",
+    "翻译": {
+        "参数描述": "DSHOT 3D 死区下限 Comment: 当执行器输出位于 DSHOT_3D_DEAD_L 和 DSHOT_3D_DEAD_H 之间时，电机不会旋转。此值是相对于混合器模块范围（0-1999）的，而不是 DSHOT 值。",
+        "注解": "DSHOT_3D_DEAD_L 参数用于定义执行器输出范围内的死区下限。当执行器输出位于 DSHOT_3D_DEAD_L 和 DSHOT_3D_DEAD_H 之间时，电机将不会旋转。需要注意，此值是相对于混合器模块范围（0-1999）的，而不是 DSHOT 协议的值。"
     },
-    {
-        "名称": "DSHOT_3D_ENABLE (INT32)",
-        "参数描述": "Allows for 3d mode when using DShot and suitable mixer Comment: WARNING: ESC must be configured for 3D mode, and DSHOT_MIN set to 0. This splits the throttle ranges in two. Direction 1) 48 is the slowest, 1047 is the fastest. Direction 2) 1049 is the slowest, 2047 is the fastest. When mixer outputs 1000 or value inside DSHOT 3D deadband, DShot 0 is sent.",
-        "[Min, Max] (Incr.)": "",
-        "默认值": "Disabled (0)",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[0, 1000]",
+    "默认值": "1000",
+    "单位": ""
+}
+,
+{
+    "名称": "DSHOT_3D_ENABLE (INT32)",
+    "参数描述": "Allows for 3D mode when using DShot and suitable mixer Comment: WARNING: ESC must be configured for 3D mode, and DSHOT_MIN set to 0. This splits the throttle ranges in two. Direction 1) 48 is the slowest, 1047 is the fastest. Direction 2) 1049 is the slowest, 2047 is the fastest. When mixer outputs 1000 or value inside DSHOT 3D deadband, DShot 0 is sent.",
+    "翻译": {
+        "参数描述": "启用 DShot 3D 模式允许适用于 DShot 和适当混合器的情况 Comment: 警告：ESC 必须配置为 3D 模式，并将 DSHOT_MIN 设置为 0。这将将油门范围分为两个部分。 方向 1) 48 最慢，1047 最快。 方向 2) 1049 最慢，2047 最快。当混合器输出值为 1000 或位于 DSHOT 3D 死区内时，将发送 DShot 0。",
+        "注解": "DSHOT_3D_ENABLE 参数允许在使用 DShot 和适当混合器时启用 3D 模式。需要警告：电调（ESC）必须配置为 3D 模式，并将 DSHOT_MIN 设置为 0。这将分割油门范围为两部分，其中方向 1) 的范围从 48 最慢到 1047 最快，方向 2) 的范围从 1049 最慢到 2047 最快。当混合器输出值为 1000 或位于 DSHOT 3D 死区内时，将发送 DShot 0。"
     },
-    {
-        "名称": "DSHOT_MIN (FLOAT)",
-        "参数描述": "Minimum DShot Motor Output Comment: Minimum Output Value for DShot in percent. The value depends on the ESC. Make sure to set this high enough so that the motors are always spinning while armed.",
-        "[Min, Max] (Incr.)": "[0, 1] (0.01)",
-        "默认值": "0.055",
-        "单位": "%"
+    "[Min, Max] (Incr.)": "",
+    "默认值": "Disabled (0)",
+    "单位": ""
+}
+,
+{
+    "名称": "DSHOT_MIN (FLOAT)",
+    "参数描述": "Minimum DShot Motor Output Comment: Minimum Output Value for DShot in percent. The value depends on the ESC. Make sure to set this high enough so that the motors are always spinning while armed.",
+    "翻译": {
+        "参数描述": "最小 DShot 电机输出 Comment: DShot 的最小输出值，以百分比表示。该值取决于电调（ESC）。请确保将其设置得足够高，以确保电机在解锁状态下始终旋转。",
+        "注解": "DSHOT_MIN 参数用于定义 DShot 输出的最小值，以百分比表示。实际值取决于所使用的电调（ESC）。请务必将此值设置得足够高，以确保在解锁状态下电机始终保持旋转。"
     },
-    {
-        "名称": "DSHOT_TEL_CFG (INT32)",
-        "参数描述": "Serial Configuration for DShot Driver Comment: Configure on which serial port to run DShot Driver. 参数对照:0: Disabled 6: UART 6 101: TELEM 1 102: TELEM 2 103: TELEM 3 104: TELEM/SERIAL 4 201: GPS 1 202: GPS 2 203: GPS 3 300: Radio Controller 301: Wifi Port 401: EXT2 Reboot required: true",
-        "[Min, Max] (Incr.)": "",
-        "默认值": "0",
-        "单位": ""
+    "[Min, Max] (Incr.)": "[0, 1] (0.01)",
+    "默认值": "0.055",
+    "单位": "%"
+}
+,
+{
+    "名称": "DSHOT_TEL_CFG (INT32)",
+    "参数描述": "Serial Configuration for DShot Driver Comment: Configure on which serial port to run DShot Driver. 参数对照:0: Disabled 6: UART 6 101: TELEM 1 102: TELEM 2 103: TELEM 3 104: TELEM/SERIAL 4 201: GPS 1 202: GPS 2 203: GPS 3 300: Radio Controller 301: Wifi Port 401: EXT2 Reboot required: true",
+    "翻译": {
+        "参数描述": "DShot 驱动串口配置 Comment: 配置在哪个串口上运行 DShot 驱动。参数对照: 0: 禁用 6: 串口 6 101: 遥测串口 1 102: 遥测串口 2 103: 遥测串口 3 104: 遥测/串口 4 201: GPS 串口 1 202: GPS 串口 2 203: GPS 串口 3 300: 遥控器串口 301: WiFi 串口 401: EXT2 需要重启: true",
+        "注解": "DSHOT_TEL_CFG 参数用于配置 DShot 驱动运行的串口。请根据需要选择适当的串口配置。注意，某些配置可能需要重启设备才能生效。"
     },
-    {
-        "名称": "MOT_POLE_COUNT (INT32)",
-        "参数描述": "Number of magnetic poles of the motors Comment: Specify the number of magnetic poles of the motors. It is required to compute the RPM value from the eRPM returned with the ESC telemetry. Either get the number from the motor spec sheet or count the magnets on the bell of the motor (not the stator magnets). Typical motors for 5 inch props have 14 poles.",
-        "[Min, Max] (Incr.)": "",
-        "默认值": "14",
-        "单位": ""
+    "[Min, Max] (Incr.)": "",
+    "默认值": "0",
+    "单位": ""
+}
+,
+{
+    "名称": "MOT_POLE_COUNT (INT32)",
+    "参数描述": "Number of magnetic poles of the motors Comment: Specify the number of magnetic poles of the motors. It is required to compute the RPM value from the eRPM returned with the ESC telemetry. Either get the number from the motor spec sheet or count the magnets on the bell of the motor (not the stator magnets). Typical motors for 5 inch props have 14 poles.",
+    "翻译": {
+        "参数描述": "电机的磁极数 Comment: 指定电机的磁极数。这是计算从带有电子调速器遥测返回的电机电转数 (eRPM) 所必需的。您可以从电机规格表中获取这个数值，或者数一数电机钟罩上的磁铁数量（而不是定子上的磁铁）。通常用于 5 寸桨叶的电机有 14 个磁极。",
+        "注解": "MOT_POLE_COUNT 参数用于指定电机的磁极数。这个数值对于从电子调速器遥测中计算电机的实际电转数（RPM）非常重要。请根据电机规格或钟罩上的磁铁数量来设置这个参数。"
     },
+    "[Min, Max] (Incr.)": "",
+    "默认值": "14",
+    "单位": ""
+}
+,
     {
         "名称": "EKF2_ABIAS_INIT (FLOAT)",
         "参数描述": "1-sigma IMU accelerometer switch-on bias    Reboot required: true",
