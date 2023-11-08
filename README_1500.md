@@ -3306,8 +3306,8 @@
 1331. MNT_MAV_COMPID (INT32)
 - 名称：MNT_MAV_COMPID (INT32)
 - 参数描述：Mavlink Component ID of the mount Comment: If MNT_MODE_OUT is MAVLink protocol v2, mount configure/control commands will be sent with this component ID.
-  - 翻译：
-  - gpt注解：
+  - 翻译：云台的Mavlink组件ID Comment: 如果MNT_MODE_OUT为MAVLink协议v2，云台的配置/控制命令将使用此组件ID发送。
+  - gpt注解：MNT_MAV_COMPID参数用于设置云台的Mavlink组件ID。如果MNT_MODE_OUT使用MAVLink协议v2，云台的配置和控制命令将使用此组件ID进行发送。通常情况下，您可以根据通信协议和系统配置来调整此参数。
 - `[Min, Max]`：``
 - 默认值：`154`
 - 单位：``
@@ -4106,8 +4106,8 @@
 1411. MPC_Z_MAN_EXPO (FLOAT)
 - 名称：MPC_Z_MAN_EXPO (FLOAT)
 - 参数描述：Manual control stick vertical exponential curve Comment: The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve
-  - 翻译：
-  - gpt注解：
+  - 翻译：手动控制杆垂直指数曲线 Comment: 数值越高，控制杆在零附近的灵敏度越低，同时仍然可以通过全杆偏转达到最大值。 0 纯线性输入曲线 1 纯立方输入曲线
+  - gpt注解：MPC_Z_MAN_EXPO参数用于调整手动控制杆的垂直指数曲线。数值越高，控制杆在零附近的灵敏度越低，即在零点附近的控制输入更不敏感，但仍能在全杆偏转时达到最大值。0代表纯线性输入曲线，1代表纯立方输入曲线。通常情况下，您可以根据操纵杆的灵敏度需求来调整此参数。
 - `[Min, Max]`：`[0, 1] (0.01)`
 - 默认值：`0.6`
 - 单位：``
@@ -4116,8 +4116,8 @@
 1412. MPC_Z_P (FLOAT)
 - 名称：MPC_Z_P (FLOAT)
 - 参数描述：Proportional gain for vertical position error Comment: Defined as corrective velocity in m/s per m position error
-  - 翻译：
-  - gpt注解：
+  - 翻译：垂直位置误差的比例增益 Comment: 定义为每m位置误差的校正速度
+  - gpt注解：MPC_Z_P参数用于调整垂直位置误差的比例增益。它被定义为每m位置误差的校正速度，用于控制垂直位置的响应。通常情况下，通过调整此参数，可以影响飞行器对垂直位置误差的响应速度。增大此值将增加响应速度，减小则减小响应速度。请根据飞行任务和性能需求来调整此参数。
 - `[Min, Max]`：`[0.1, 1.5] (0.1)`
 - 默认值：`1.`
 - 单位：``
@@ -4126,8 +4126,8 @@
 1413. MPC_Z_VEL_ALL (FLOAT)
 - 名称：MPC_Z_VEL_ALL (FLOAT)
 - 参数描述：Overall Vertical Velocity Limit Comment: If set to a value greater than zero, other parameters are automatically set (such as MPC_Z_VEL_MAX_UP or MPC_LAND_SPEED). If set to a negative value, the existing individual parameters are used.
-  - 翻译：
-  - gpt注解：
+  - 翻译：总体垂直速度限制 Comment: 如果设置为大于零的值，将自动设置其他参数（如MPC_Z_VEL_MAX_UP或MPC_LAND_SPEED）。如果设置为负值，将使用现有的各个参数。
+  - gpt注解：MPC_Z_VEL_ALL参数用于设置飞行器的总体垂直速度限制。如果将其设置为大于零的值，系统将自动调整其他相关参数，如MPC_Z_VEL_MAX_UP或MPC_LAND_SPEED，以匹配所需的垂直速度限制。如果将其设置为负值，将使用现有的各个参数，而不进行自动调整。通常情况下，您可以根据飞行任务和性能需求来调整此参数，以确保所需的垂直速度限制。
 - `[Min, Max]`：`[-3, 8] (0.5)`
 - 默认值：`-3.`
 - 单位：``
@@ -4136,8 +4136,8 @@
 1414. MPC_Z_VEL_D_ACC (FLOAT)
 - 名称：MPC_Z_VEL_D_ACC (FLOAT)
 - 参数描述：Differential gain for vertical velocity error Comment: Defined as corrective acceleration in m/s^2 per m/s^2 velocity derivative
-  - 翻译：
-  - gpt注解：
+  - 翻译：垂直速度误差的微分增益 Comment: 定义为每m/s^2速度导数的校正加速度
+  - gpt注解：MPC_Z_VEL_D_ACC参数用于调整垂直速度误差的微分增益。它被定义为每m/s^2速度导数的校正加速度，用于控制垂直速度的导数误差。通常情况下，通过调整此参数，可以影响飞行器对垂直速度导数误差的响应速度。增大此值将增加响应速度，减小则减小响应速度。请根据飞行任务和性能需求来调整此参数。
 - `[Min, Max]`：`[0, 2] (0.02)`
 - 默认值：`0.`
 - 单位：``
@@ -4146,8 +4146,8 @@
 1415. MPC_Z_VEL_I_ACC (FLOAT)
 - 名称：MPC_Z_VEL_I_ACC (FLOAT)
 - 参数描述：Integral gain for vertical velocity error Comment: Defined as corrective acceleration in m/s^2 per m velocity integral
-  - 翻译：
-  - gpt注解：
+  - 翻译：垂直速度误差的积分增益 Comment: 定义为每m速度积分的校正加速度
+  - gpt注解：MPC_Z_VEL_I_ACC参数用于调整垂直速度误差的积分增益。它被定义为每m速度积分的校正加速度，用于控制垂直速度的积分误差。通常情况下，通过调整此参数，可以影响飞行器对垂直速度积分误差的响应速度。增大此值将增加响应速度，减小则减小响应速度。请根据飞行任务和性能需求来调整此参数。
 - `[Min, Max]`：`[0.2, 3] (0.1)`
 - 默认值：`2.`
 - 单位：``
@@ -4156,8 +4156,8 @@
 1416. MPC_Z_VEL_MAX_DN (FLOAT)
 - 名称：MPC_Z_VEL_MAX_DN (FLOAT)
 - 参数描述：Maximum descent velocity Comment: Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP
-  - 翻译：
-  - gpt注解：
+  - 翻译：最大下降速度 Comment: 所有爬升速率受控模式的绝对最大值。在手动驾驶模式中，全杆偏转会指令此速度。有关默认的自主模式速度，请参阅MPC_Z_V_AUTO_UP。
+  - gpt注解：MPC_Z_VEL_MAX_DN参数用于设置飞行器的最大下降速度。这个值代表了所有爬升速率受控模式的绝对最大速度。在手动驾驶模式下，全杆偏转将命令飞行器以此速度下降。有关默认的自主模式速度，请参阅MPC_Z_V_AUTO_UP参数。通常情况下，您可以根据飞行任务和性能需求来调整此参数，以确保所需的下降速度。
 - `[Min, Max]`：`[0.5, 4] (0.1)`
 - 默认值：`1.5`
 - 单位：`m/s`
@@ -4166,8 +4166,8 @@
 1417. MPC_Z_VEL_MAX_UP (FLOAT)
 - 名称：MPC_Z_VEL_MAX_UP (FLOAT)
 - 参数描述：Maximum ascent velocity Comment: Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP
-  - 翻译：
-  - gpt注解：
+  - 翻译：最大上升速度 Comment: 所有爬升速率受控模式的绝对最大值。在手动驾驶模式中，全杆偏转会指令此速度。有关默认的自主模式速度，请参阅MPC_Z_V_AUTO_UP。
+  - gpt注解：MPC_Z_VEL_MAX_UP参数用于设置飞行器的最大上升速度。这个值代表了所有爬升速率受控模式的绝对最大速度。在手动驾驶模式下，全杆偏转将命令飞行器以此速度上升。有关默认的自主模式速度，请参阅MPC_Z_V_AUTO_UP参数。通常情况下，您可以根据飞行任务和性能需求来调整此参数，以确保所需的上升速度。
 - `[Min, Max]`：`[0.5, 8] (0.1)`
 - 默认值：`3.`
 - 单位：`m/s`
@@ -4176,8 +4176,8 @@
 1418. MPC_Z_VEL_P_ACC (FLOAT)
 - 名称：MPC_Z_VEL_P_ACC (FLOAT)
 - 参数描述：Proportional gain for vertical velocity error Comment: Defined as corrective acceleration in m/s^2 per m/s velocity error
-  - 翻译：
-  - gpt注解：
+  - 翻译：垂直速度误差的比例增益 Comment: 定义为每m/s速度误差的校正加速度
+  - gpt注解：MPC_Z_VEL_P_ACC参数用于调整垂直速度误差的比例增益。它被定义为每m/s速度误差的校正加速度，用于控制垂直速度的响应。通常情况下，通过调整此参数，可以影响飞行器对垂直速度误差的响应速度。增大此值将增加响应速度，减小则减小响应速度。请根据飞行任务和性能需求来调整此参数。
 - `[Min, Max]`：`[2, 15] (0.1)`
 - 默认值：`4.`
 - 单位：``
@@ -4186,8 +4186,8 @@
 1419. MPC_Z_V_AUTO_DN (FLOAT)
 - 名称：MPC_Z_V_AUTO_DN (FLOAT)
 - 参数描述：Descent velocity in autonomous modes Comment: For manual modes and offboard, see MPC_Z_VEL_MAX_DN
-  - 翻译：
-  - gpt注解：
+  - 翻译：自主模式下的下降速度 Comment: 对于手动模式和离线模式，请参考MPC_Z_VEL_MAX_DN
+  - gpt注解：MPC_Z_V_AUTO_DN参数用于设置自主飞行模式下的下降速度。这个速度指定了飞行器在自主模式下向下运动的最大速度。对于手动控制模式和离线模式，请参考MPC_Z_VEL_MAX_DN参数。通常情况下，您可以根据飞行任务和性能需求来调整此参数，以实现所需的下降速度。
 - `[Min, Max]`：`[0.5, 4] (0.5)`
 - 默认值：`1.5`
 - 单位：`m/s`
@@ -4196,8 +4196,8 @@
 1420. MPC_Z_V_AUTO_UP (FLOAT)
 - 名称：MPC_Z_V_AUTO_UP (FLOAT)
 - 参数描述：Ascent velocity in autonomous modes Comment: For manually controlled modes and offboard see MPC_Z_VEL_MAX_UP
-  - 翻译：
-  - gpt注解：
+  - 翻译：自主模式下的上升速度 Comment: 对于手动控制模式和离线模式，请参考MPC_Z_VEL_MAX_UP
+  - gpt注解：MPC_Z_V_AUTO_UP参数用于设置自主飞行模式下的上升速度。这个速度指定了飞行器在自主模式下向上运动的最大速度。对于手动控制模式和离线模式，请参考MPC_Z_VEL_MAX_UP参数。通常情况下，您可以根据飞行任务和性能需求来调整此参数，以实现所需的上升速度。
 - `[Min, Max]`：`[0.5, 8] (0.5)`
 - 默认值：`3.`
 - 单位：`m/s`
@@ -4206,8 +4206,8 @@
 1421. SYS_VEHICLE_RESP (FLOAT)
 - 名称：SYS_VEHICLE_RESP (FLOAT)
 - 参数描述：Responsiveness Comment: Changes the overall responsiveness of the vehicle. The higher the value, the faster the vehicle will react. If set to a value greater than zero, other parameters are automatically set (such as the acceleration or jerk limits). If set to a negative value, the existing individual parameters are used.
-  - 翻译：
-  - gpt注解：
+  - 翻译：响应性 Comment: 改变飞行器的整体响应性。数值越大，飞行器的反应速度越快。如果设置为大于零的值，将自动设置其他参数（如加速度或跃度限制）。如果设置为负值，将使用现有的各个参数。
+  - gpt注解：SYS_VEHICLE_RESP参数用于调整飞行器的整体响应性。通过改变这个值，可以调整飞行器的整体响应速度。较大的值将导致飞行器更快地响应控制输入。如果将其设置为大于零的值，系统将自动调整其他相关参数，如加速度或跃度限制，以匹配所需的响应性。如果将其设置为负值，将使用现有的各个参数，而不进行自动调整。您可以根据飞行任务和性能需求来调整此参数。
 - `[Min, Max]`：`[-1, 1] (0.05)`
 - 默认值：`-0.4`
 - 单位：``
@@ -4216,8 +4216,8 @@
 1422. WV_EN (INT32)
 - 名称：WV_EN (INT32)
 - 参数描述：Enable weathervane
-  - 翻译：
-  - gpt注解：
+  - 翻译：启用气象尾翼
+  - gpt注解：WV_EN参数用于启用或禁用气象尾翼控制功能。气象尾翼是一种用于在风向变化时保持飞行器朝向的控制功能。当启用气象尾翼时，飞行器将根据风向来调整其姿态，以保持稳定的朝向。通常情况下，您可以根据飞行任务和飞行条件来启用或禁用此功能。
 - `[Min, Max]`：``
 - 默认值：`Disabled (0)`
 - 单位：``
@@ -4226,8 +4226,8 @@
 1423. WV_ROLL_MIN (FLOAT)
 - 名称：WV_ROLL_MIN (FLOAT)
 - 参数描述：Minimum roll angle setpoint for weathervane controller to demand a yaw-rate
-  - 翻译：
-  - gpt注解：
+  - 翻译：气象尾翼控制器要求偏航速率的最小横摇角设定点
+  - gpt注解：WV_ROLL_MIN参数用于设置气象尾翼控制器要求偏航速率的最小横摇角。当横摇角达到此最小值时，气象尾翼控制器才会要求偏航速率来实现所需的控制。通常情况下，您可以根据飞行器的性能要求和环境条件来调整此参数，以确保适当的控制响应。
 - `[Min, Max]`：`[0, 5]`
 - 默认值：`1.0`
 - 单位：`deg`
@@ -4236,8 +4236,8 @@
 1424. WV_YRATE_MAX (FLOAT)
 - 名称：WV_YRATE_MAX (FLOAT)
 - 参数描述：Maximum yawrate the weathervane controller is allowed to demand
-  - 翻译：
-  - gpt注解：
+  - 翻译：气象尾翼控制器允许要求的最大偏航速率
+  - gpt注解：WV_YRATE_MAX参数用于限制气象尾翼控制器可以要求的最大偏航速率。这有助于确保在强风等恶劣气象条件下，飞行器的偏航稳定性。通常情况下，您可以根据飞行器的需求和环境条件来调整此参数，以确保适当的控制。
 - `[Min, Max]`：`[0, 120]`
 - 默认值：`90.0`
 - 单位：`deg/s`
@@ -4246,8 +4246,8 @@
 1425. MC_BAT_SCALE_EN (INT32)
 - 名称：MC_BAT_SCALE_EN (INT32)
 - 参数描述：Battery power level scaler Comment: This compensates for voltage drop of the battery over time by attempting to normalize performance across the operating range of the battery. The copter should constantly behave as if it was fully charged with reduced max acceleration at lower battery percentages. i.e. if hover is at 0.5 throttle at 100% battery, it will still be 0.5 at 60% battery.
-  - 翻译：
-  - gpt注解：
+  - 翻译：电池电量缩放器 Comment: 通过尝试规范化电池的工作范围，以弥补电池随时间的电压下降。直升机应始终表现得好像它是充满电的，在较低电池百分比下减小最大加速度。即，如果悬停在100%电池时为0.5油门，那么在60%电池时仍将为0.5。
+  - gpt注解：MC_BAT_SCALE_EN参数用于调整电池电量对飞行性能的影响。它通过规范化电池的工作范围，以弥补电池随时间的电压下降。这样，飞行器在不同电池电量下仍能保持相对稳定的性能。通常情况下，它使飞行器在较低电池百分比下降低最大加速度，以确保飞行性能不会因电量下降而急剧下降。您可以根据电池的性能和需求来调整此参数。
 - `[Min, Max]`：``
 - 默认值：`Disabled (0)`
 - 单位：``
@@ -4256,8 +4256,8 @@
 1426. MC_PITCHRATE_D (FLOAT)
 - 名称：MC_PITCHRATE_D (FLOAT)
 - 参数描述：Pitch rate D gain Comment: Pitch rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.
-  - 翻译：
-  - gpt注解：
+  - 翻译：俯仰速率D增益 Comment: 俯仰速率微分增益。小值有助于减小快速振荡。如果值太大，振荡将再次出现。
+  - gpt注解：MC_PITCHRATE_D参数用于调整飞行器的俯仰稳定性，特别是对于控制系统的微分项。小的D增益有助于减少快速振荡，从而提高稳定性。然而，如果D增益值过大，可能会引发振荡问题。请根据实际需求和飞行器性能来调整此参数。
 - `[Min, Max]`：`[0.0, ?] (0.0005)`
 - 默认值：`0.003`
 - 单位：``
@@ -4266,8 +4266,8 @@
 1427. MC_PITCHRATE_FF (FLOAT)
 - 名称：MC_PITCHRATE_FF (FLOAT)
 - 参数描述：Pitch rate feedforward Comment: Improves tracking performance.
-  - 翻译：
-  - gpt注解：
+  - 翻译：俯仰速率前馈 Comment: 提高跟踪性能。
+  - gpt注解：MC_PITCHRATE_FF参数用于改进飞行器的俯仰速率跟踪性能。通过添加前馈项，可以提高控制系统对速度误差的响应，从而改善跟踪性能。通常情况下，将此参数设置为零，以实现基本的反馈控制。但在一些情况下，特别是需要更高性能的飞行任务中，增加前馈可以提高控制的精度和响应速度。请根据实际需求来调整此参数。
 - `[Min, Max]`：`[0.0, ?]`
 - 默认值：`0.0`
 - 单位：``
@@ -4276,8 +4276,8 @@
 1428. MC_PITCHRATE_I (FLOAT)
 - 名称：MC_PITCHRATE_I (FLOAT)
 - 参数描述：Pitch rate I gain Comment: Pitch rate integral gain. Can be set to compensate static thrust difference or gravity center offset.
-  - 翻译：
-  - gpt注解：
+  - 翻译：俯仰速率I增益 Comment: 俯仰速率积分增益。可以设置用来补偿静态推力差异或重心偏移。
+  - gpt注解：MC_PITCHRATE_I参数用于调整飞行器的俯仰稳定性，特别是对抵消静态推力差异或重心偏移非常有用。增加此值将增加积分响应，以更好地消除稳定性误差。然而，过高的积分增益可能导致积分项过度响应，引入振荡或其他问题。请根据实际需求和飞行器性能来调整此参数。
 - `[Min, Max]`：`[0.0, ?] (0.01)`
 - 默认值：`0.2`
 - 单位：``
@@ -4286,8 +4286,8 @@
 1429. MC_PITCHRATE_K (FLOAT)
 - 名称：MC_PITCHRATE_K (FLOAT)
 - 参数描述：Pitch rate controller gain Comment: Global gain of the controller. This gain scales the P, I and D terms of the controller: output = MC_PITCHRATE_K * (MC_PITCHRATE_P * error + MC_PITCHRATE_I * error_integral + MC_PITCHRATE_D * error_derivative) Set MC_PITCHRATE_P=1 to implement a PID in the ideal form. Set MC_PITCHRATE_K=1 to implement a PID in the parallel form.
-  - 翻译：
-  - gpt注解：
+  - 翻译：俯仰速率控制器增益 Comment: 控制器的全局增益。该增益缩放控制器的P、I和D项：output = MC_PITCHRATE_K * (MC_PITCHRATE_P * error + MC_PITCHRATE_I * error_integral + MC_PITCHRATE_D * error_derivative) 设置MC_PITCHRATE_P=1以实现理想形式的PID。设置MC_PITCHRATE_K=1以实现并联形式的PID。
+  - gpt注解：MC_PITCHRATE_K参数是控制器的全局增益，它用于缩放控制器的P、I和D项。通过调整此参数，您可以控制控制器的输出响应。通常情况下，将MC_PITCHRATE_P设置为1可实现理想形式的PID控制，而将MC_PITCHRATE_K设置为1可实现并联形式的PID控制。您可以根据您的系统需求来调整这个参数，以实现所需的控制行为。
 - `[Min, Max]`：`[0.01, 5.0] (0.0005)`
 - 默认值：`1.0`
 - 单位：``
@@ -4296,8 +4296,8 @@
 1430. MC_PITCHRATE_P (FLOAT)
 - 名称：MC_PITCHRATE_P (FLOAT)
 - 参数描述：Pitch rate P gain Comment: Pitch rate proportional gain, i.e. control output for angular speed error 1 rad/s.
-  - 翻译：
-  - gpt注解：
+  - 翻译：俯仰速率P增益 Comment: Pitch rate proportional gain, i.e. control output for angular speed error 1 rad/s.
+  - gpt注解：MC_PITCHRATE_P参数用于调整飞行器的俯仰稳定性。增加此值将增加俯仰速率的响应，降低则减小响应。通常，您可以根据飞行器的性能要求和实际需求来调整此值。较高的值可能导致更敏感的俯仰响应，但也可能引入振荡。
 - `[Min, Max]`：`[0.01, 0.6] (0.01)`
 - 默认值：`0.15`
 - 单位：``
